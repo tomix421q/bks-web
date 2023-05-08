@@ -24,12 +24,12 @@ const Hero = () => {
             <TabsHero />
           </div>
           {/* PONUKA */}
-          <div className='font-oswald text-gray-300 p-2 mt-4 w-full lg:mt-10 rounded-md'>
+          <div className='font-oswald text-gray-300 p-2 mt-4 w-full lg:mt-10 '>
             <h2 className='text-3xl font-bold uppercase lg:text-5xl'>
               <span className='text-color-green text-3xl lg:text-6xl '>| </span>
               Ponúkame:
             </h2>
-            <ul className='text-gray-200 text-lg w-[270px] p-2 lg:ml-3  font-robotoLight font-normal  md:text-4xl md:mt-5 md:w-[450px]'>
+            <ul className='text-gray-200 text-lg w-[270px] p-2 lg:ml-3  font-robotoLight font-normal  md:text-4xl md:mt-8 md:w-[470px]'>
               <li className='border-b-4 border-color-green p-2'>
                 Pokladka velkoformátovej dlažby
               </li>
