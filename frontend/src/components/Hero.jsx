@@ -29,7 +29,7 @@ const Hero = () => {
               <span className='text-color-green text-3xl lg:text-6xl '>| </span>
               Ponúkame:
             </h2>
-            <ul className='text-gray-200 text-lg w-[270px] p-2 lg:ml-3  font-robotoLight font-normal  md:text-4xl md:mt-8 md:w-[470px]'>
+            <ul className='text-gray-200 text-lg w-[270px] p-2 lg:ml-3  font-robotoLight font-normal  md:text-4xl md:mt-10 md:w-[470px]'>
               <li className='border-b-4 border-color-green p-2'>
                 Pokladka velkoformátovej dlažby
               </li>
