@@ -30,12 +30,9 @@ const Navbar = () => {
     >
       <div className='max-w-[1240] m-auto flex justify-between  p-4 text-black'>
         <a href='/'>
-          <div className='hidden md:flex absolute top-5 w-12 h-12 bg-color-green justify-center items-center rounded-md md:w-20 md:h-20'>
-            <h1 className='text-gray-600 text-5xl font-extrabold md:text-7xl '>
-              B
-            </h1>
-          </div>
+          <div className='hidden md:flex logo-img w-[60px] h-[60px] bg-color-green rounded-sm'></div>
         </a>
+
         <ul style={{ color: `${textColor}` }} className='hidden sm:flex'>
           <li className='p-4'>
             <a href='/'>Domov</a>
@@ -55,17 +52,17 @@ const Navbar = () => {
         {/*  */}
         <div className='block sm:hidden z-10' onClick={() => handleNav()}>
           {nav ? (
-            <AiOutlineClose size={20} />
+            <AiOutlineClose size={30} style={{ color: `${textColor}` }} />
           ) : (
-            <AiOutlineMenu size={20} style={{ color: `${textColor}` }} />
+            <AiOutlineMenu size={30} style={{ color: `${textColor}` }} />
           )}
         </div>
         {/* Mobile menu  */}
         <div
           className={
             nav
-              ? 'sm:hidden absolute top-0 left-0 right-0 bottom-0 flex justify-center items-center w-full h-screen bg-black text-center ease-in duration-300 flex-col'
-              : 'sm:hidden absolute top-0 left-[-100%] right-0 bottom-0 flex justify-center items-center w-full h-screen bg-black text-center ease-in duration-300 flex-col'
+              ? 'sm:hidden absolute top-0 left-0 right-0 bottom-0 flex justify-center items-center w-full h-screen bg-black text-center ease-in duration-300 flex-col text-white'
+              : 'sm:hidden absolute top-0 left-[-100%] right-0 bottom-0 flex justify-center items-center w-full h-screen bg-black text-center ease-in duration-300 flex-col '
           }
         >
           <ul>

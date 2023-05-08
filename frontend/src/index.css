@@ -20,3 +20,21 @@
 .logo-img {
   background-image: url('./assets/wallpaper/logo.png');
 }
+
+.hero-tab1 {
+  background-image: url('./assets/foto/336235919_724816999321320_7386909323048158455_n.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+.hero-tab2 {
+  background-image: url('./assets/foto/273118153_1110389533073115_1147592491341016680_n.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+.hero-tab3 {
+  background-image: url('./assets/foto/301796351_1245848232860577_6176424232152195290_n.jpg');
+  background-position: center;
+  background-size: cover;
+}
