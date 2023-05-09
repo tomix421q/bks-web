@@ -33,7 +33,7 @@ const Navbar = () => {
           <div className='hidden md:flex logo-img w-[60px] scale-75 h-[60px] bg-color-green rounded-md'></div>
         </a>
 
-        <ul style={{ color: `${textColor}` }} className='hidden sm:flex'>
+        <ul style={{ color: `${textColor}` }} className='hidden lg:flex'>
           <li className='p-4'>
             <a href='/'>Domov</a>
           </li>
@@ -50,7 +50,10 @@ const Navbar = () => {
         {/*  */}
         {/* Mobile Button */}
         {/*  */}
-        <div className='block sm:hidden z-10' onClick={() => handleNav()}>
+        <div
+          className='block lg:hidden z-10 bg-gray-950 p-2'
+          onClick={() => handleNav()}
+        >
           {nav ? (
             <AiOutlineClose size={30} style={{ color: `${textColor}` }} />
           ) : (
