@@ -12,9 +12,9 @@ const Navbar = () => {
 
   useEffect(() => {
     const changeColor = () => {
-      if (window.scrollY >= 90) {
-        setColor('#ffffff')
-        setTextColor('#000000')
+      if (window.scrollY >= 900) {
+        setColor('#333333')
+        setTextColor('#ffffff')
       } else {
         setColor('transparent')
         setTextColor('#ffffff')
@@ -26,11 +26,11 @@ const Navbar = () => {
   return (
     <div
       style={{ backgroundColor: `${color}` }}
-      className='fixed left-0 top-0 w-full z-10 ease-in duration-300  '
+      className='fixed left-0 top-0 w-full  ease-in duration-300  z-40'
     >
-      <div className='max-w-[1240] m-auto flex justify-between  p-4 text-black'>
+      <div className='max-w-full m-auto flex justify-between  p-2 text-black items-center '>
         <a href='/'>
-          <div className='hidden md:flex logo-img w-[60px] h-[60px] bg-color-green rounded-sm'></div>
+          <div className='hidden md:flex logo-img w-[60px] scale-75 h-[60px] bg-color-green rounded-md'></div>
         </a>
 
         <ul style={{ color: `${textColor}` }} className='hidden sm:flex'>

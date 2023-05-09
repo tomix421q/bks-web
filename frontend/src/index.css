@@ -9,6 +9,10 @@
   --darkseablue-color: #226b80;
 }
 
+html {
+  background: #226b80;
+}
+
 * {
   box-sizing: border-box;
 }

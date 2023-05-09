@@ -15,5 +15,6 @@ export default {
       },
     },
   },
+  '@import': '~react-image-gallery/styles/css/image-gallery.css',
   plugins: [],
 }
