@@ -7,7 +7,7 @@ const Hero = () => {
     <>
       {/* Overlay  */}
       <div className='absolute top-0 left-0 right-0 bottom-0 bg-black/60  ' />
-      <div className='hero-img flex items-center  justify-center h-screen bg-fixed bg-center bg-cover'>
+      <div className='hero-img flex flex items-center  justify-center h-screen bg-fixed bg-center bg-cover'>
         <div className='absolute max-w-[1200px] flex flex-col  p-3 lg:top-36 justify-center lg:flex-row '>
           {/* BKS H1 */}
           <div className='flex-col min-w-[290px] font-oswald '>
