@@ -22,7 +22,7 @@
 }
 
 .hero-tab1 {
-  background-image: url('./assets/foto/336235919_724816999321320_7386909323048158455_n.jpg');
+  background-image: url('./assets/foto/340756858_1245348042856771_4635811645720671973_n.jpg');
   background-position: center;
   background-size: cover;
 }
@@ -37,4 +37,8 @@
   background-image: url('./assets/foto/301796351_1245848232860577_6176424232152195290_n.jpg');
   background-position: center;
   background-size: cover;
+}
+
+.tabGlobal:hover {
+  transform: scale(200%);
 }
