@@ -30,7 +30,7 @@ const Navbar = () => {
     >
       <div className='max-w-full m-auto flex justify-between  p-2 text-black items-center '>
         <a href='/'>
-          <div className='hidden md:flex logo-img w-[60px] scale-75 h-[60px] bg-color-green rounded-md'></div>
+          <div className='hidden lg:flex logo-img w-[60px] scale-75 h-[60px] bg-color-green rounded-md'></div>
         </a>
 
         <ul style={{ color: `${textColor}` }} className='hidden lg:flex'>
