@@ -13,7 +13,7 @@ const Navbar = () => {
   useEffect(() => {
     const changeColor = () => {
       if (window.scrollY >= 900) {
-        setColor('#333333')
+        setColor('transparent')
         setTextColor('#ffffff')
       } else {
         setColor('transparent')
@@ -41,7 +41,7 @@ const Navbar = () => {
             <a href='/#gallery'>Nasa praca</a>
           </li>
           <li className='p-4'>
-            <a href='/#work'>O nas</a>
+            <a href='/#about'>O nas</a>
           </li>
           <li className='p-4'>
             <a href='/#contact'>Kontakt</a>
@@ -71,22 +71,22 @@ const Navbar = () => {
           <ul>
             <li className='p-4 text-4xl hover:text-gray-500'>
               <a href='/' onClick={handleNav}>
-                Home
+                Domov
               </a>
             </li>
             <li className='p-4 text-4xl hover:text-gray-500'>
               <a href='/#gallery' onClick={handleNav}>
-                Gallery
+                Galeria
               </a>
             </li>
             <li className='p-4 text-4xl hover:text-gray-500'>
-              <a href='/#work' onClick={handleNav}>
-                Work
+              <a href='/#about' onClick={handleNav}>
+                O nas
               </a>
             </li>
             <li className='p-4 text-4xl hover:text-gray-500'>
               <a href='/#contact' onClick={handleNav}>
-                Contact
+                Kontakt
               </a>
             </li>
           </ul>

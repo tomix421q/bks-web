@@ -62,14 +62,20 @@ const Hero = () => {
               </ul>
 
               <div className='flex justify-around font-robotoLight font-bold  py-4 text-lg md:text-3xl '>
-                <button class=' bg-color-green hover:bg-color-seablue hover:scale-110 hover:rotate-2 duration-300 transition-all text-gray-900 shadow-2xl py-2 px-4 rounded-md flex uppercase hover:text-gray-200 items-center'>
+                <a
+                  href='#gallery'
+                  class=' bg-color-green hover:bg-color-seablue hover:scale-110 hover:rotate-2 duration-300 transition-all text-gray-900 shadow-2xl py-2 px-4 rounded-md flex uppercase hover:text-gray-200 items-center'
+                >
                   <FaHammer size={25} className='mr-2' />
                   Nasa praca
-                </button>
-                <button class=' bg-color-green hover:bg-color-seablue hover:scale-110 hover:rotate-2 duration-300 transition-all text-gray-900 shadow-2xl py-2 px-4 rounded-md flex uppercase hover:text-gray-200 items-center'>
+                </a>
+                <a
+                  href='#contact'
+                  class=' bg-color-green hover:bg-color-seablue hover:scale-110 hover:rotate-2 duration-300 transition-all text-gray-900 shadow-2xl py-2 px-4 rounded-md flex uppercase hover:text-gray-200 items-center'
+                >
                   <RiContactsFill size={25} className='mr-2 ' />
                   Kontakt
-                </button>
+                </a>
               </div>
             </div>
             {/*  */}

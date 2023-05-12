@@ -17,6 +17,7 @@ export default {
       fontFamily: {
         robotoLight: ['Roboto', 'sans-serif'],
         oswald: ['Oswald', 'sans-serif'],
+        montserrat: ['Montserrat Alternates', 'sans-serif'],
       },
     },
   },

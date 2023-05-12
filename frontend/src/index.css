@@ -10,6 +10,8 @@
 }
 
 html {
+  scroll-behavior: smooth;
+
   background: hsla(260, 28%, 53%, 1);
 
   background: linear-gradient(
