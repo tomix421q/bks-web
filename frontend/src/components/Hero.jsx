@@ -7,7 +7,7 @@ const Hero = () => {
   return (
     <>
       {/* Overlay  */}
-      <div className='absolute top-0 left-0 right-0 bottom-0 bg-black/60 z-20' />
+      <div className='absolute top-0 left-0 right-0 bottom-0  bg-black/60 z-20' />
       <div className='hero-img  flex justify-center h-screen bg-fixed bg-center bg-cover '>
         <div className=' max-w-[1350px] lg:h-[900px] flex flex-col  lg:top-36 lg:flex-row z-30 '>
           <Smallbanner />
