@@ -12,7 +12,7 @@
 html {
   scroll-behavior: smooth;
 
-  background: hsla(260, 28%, 53%, 1);
+  /* background: hsla(260, 28%, 53%, 1);
 
   background: linear-gradient(
     90deg,
@@ -32,7 +32,7 @@ html {
     hsla(170, 42%, 71%, 1) 100%
   );
 
-  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#7C65A9", endColorstr="#96D4CA", GradientType=1 );
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#7C65A9", endColorstr="#96D4CA", GradientType=1 ); */
 }
 
 * {
@@ -48,19 +48,19 @@ html {
 }
 
 .hero-tab1 {
-  background-image: url('./assets/foto/340756858_1245348042856771_4635811645720671973_n.jpg');
+  background-image: url('./assets/foto/13.jpg');
   background-position: center;
   background-size: cover;
 }
 
 .hero-tab2 {
-  background-image: url('./assets/foto/273118153_1110389533073115_1147592491341016680_n.jpg');
+  background-image: url('./assets/foto/12.jpg');
   background-position: center;
   background-size: cover;
 }
 
 .hero-tab3 {
-  background-image: url('./assets/foto/301796351_1245848232860577_6176424232152195290_n.jpg');
+  background-image: url('./assets/foto/14.jpg');
   background-position: center;
   background-size: cover;
 }

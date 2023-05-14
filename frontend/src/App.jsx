@@ -9,12 +9,14 @@ import './index.css'
 function App() {
   return (
     <>
-      <Navbar />
-      <Hero />
-      <About />
-      <Photogallery />
-      <Contact />
-      <Footer />
+      <div className='bg-gray-200 '>
+        <Navbar />
+        <Hero />
+        <About />
+        <Photogallery />
+        <Contact />
+        <Footer />
+      </div>
     </>
   )
 }

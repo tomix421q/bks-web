@@ -40,7 +40,19 @@ const Photogallery = () => {
   }
 
   return (
-    <div id='gallery' className='max-w-[1200px] mx-auto'>
+    <div id='gallery' className='mx-auto max-w-[1350px]   text-2xl '>
+      <div className=' mt-10 font-montserrat font-bold  m-2 '>
+        {/* o nas */}
+        <div className=' block w-full'>
+          <h1 className='text-3xl my-6'>
+            <span className='text-color-darkseablue inline text-4xl font-bold '>
+              |
+            </span>
+            Galeria
+          </h1>
+        </div>
+        {/* text */}
+      </div>
       <div>
         {data.img && (
           <div className='z-50 w-[100%] top-0 left-0 bottom-0 h-screen bg-black fixed flex justify-center items-center overflow-hidden'>

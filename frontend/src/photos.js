@@ -179,6 +179,36 @@ const images = [
   {
     src: '../src/assets/foto/60.jpg',
   },
+  {
+    src: '../src/assets/foto/61.jpg',
+  },
+  {
+    src: '../src/assets/foto/62.jpg',
+  },
+  {
+    src: '../src/assets/foto/63.jpg',
+  },
+  {
+    src: '../src/assets/foto/64.jpg',
+  },
+  {
+    src: '../src/assets/foto/65.jpg',
+  },
+  {
+    src: '../src/assets/foto/66.jpg',
+  },
+  {
+    src: '../src/assets/foto/67.jpg',
+  },
+  {
+    src: '../src/assets/foto/68.jpg',
+  },
+  {
+    src: '../src/assets/foto/69.jpg',
+  },
+  {
+    src: '../src/assets/foto/70.jpg',
+  },
 ]
 
 export default images

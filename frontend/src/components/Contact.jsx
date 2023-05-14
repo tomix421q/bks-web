@@ -2,7 +2,7 @@ const Contact = () => {
   return (
     <div
       id='contact'
-      className='mx-auto max-w-[1200px]  h-screen text-5xl flex '
+      className='mx-auto max-w-[1200px] h-screen text-5xl flex '
     >
       <div className=' mt-10 font-montserrat font-bold w-full m-2'>
         {/* o nas */}

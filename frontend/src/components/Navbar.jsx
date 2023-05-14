@@ -5,6 +5,7 @@ const Navbar = () => {
   const [nav, setNav] = useState(false)
   const [color, setColor] = useState('transparent')
   const [textColor, setTextColor] = useState('white')
+  const [mbLogoVis, setmbLogoVis] = useState('hidden')
 
   const handleNav = () => {
     setNav(!nav)
@@ -12,12 +13,14 @@ const Navbar = () => {
 
   useEffect(() => {
     const changeColor = () => {
-      if (window.scrollY >= 900) {
-        setColor('transparent')
+      if (window.scrollY >= 500) {
+        setColor('black')
         setTextColor('#ffffff')
+        setmbLogoVis('flex')
       } else {
         setColor('transparent')
         setTextColor('#ffffff')
+        setmbLogoVis('hidden')
       }
     }
     window.addEventListener('scroll', changeColor)
@@ -28,10 +31,19 @@ const Navbar = () => {
       style={{ backgroundColor: `${color}` }}
       className='fixed left-0 top-0 w-full  ease-in duration-300  z-40'
     >
-      <div className='max-w-full m-auto flex justify-between  p-2 text-black items-center '>
+      <div className='max-w-full m-auto flex justify-between  p-2  items-center '>
+        {/*  */}
+        {/* Logo pre lg */}
         <a href='/'>
           <div className='hidden lg:flex logo-img w-[60px] scale-75 h-[60px] bg-color-green rounded-md'></div>
         </a>
+        {/* Logo pre sm */}
+        <a href='/'>
+          <div
+            className={`logo-img w-[60px] absolute top-1.5 left-2 scale-75 h-[60px] bg-color-green rounded-md ${mbLogoVis}`}
+          ></div>
+        </a>
+        {/*  */}
 
         <ul style={{ color: `${textColor}` }} className='hidden lg:flex'>
           <li className='p-4'>
@@ -51,13 +63,13 @@ const Navbar = () => {
         {/* Mobile Button */}
         {/*  */}
         <div
-          className='block lg:hidden z-10 bg-gray-950 p-2'
+          className='block lg:hidden z-50   bg-gray-950 p-2 '
           onClick={() => handleNav()}
         >
           {nav ? (
-            <AiOutlineClose size={30} style={{ color: `${textColor}` }} />
+            <AiOutlineClose size={40} style={{ color: `${textColor}` }} />
           ) : (
-            <AiOutlineMenu size={30} style={{ color: `${textColor}` }} />
+            <AiOutlineMenu size={40} style={{ color: `${textColor}` }} />
           )}
         </div>
         {/* Mobile menu  */}
