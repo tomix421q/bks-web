@@ -9,9 +9,9 @@ import './index.css'
 function App() {
   return (
     <>
-      <div className='bg-gray-200 '>
-        <Navbar />
-        <Hero />
+      <Navbar />
+      <Hero />
+      <div className='mx-auto max-w-[1350px]'>
         <About />
         <Photogallery />
         <Contact />

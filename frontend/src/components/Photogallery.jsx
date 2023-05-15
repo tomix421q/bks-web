@@ -1,6 +1,7 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import { FcNext, FcPrevious } from 'react-icons/fc'
 import { CgClose } from 'react-icons/cg'
+import { SlArrowDown, SlArrowUp } from 'react-icons/Sl'
 // Gallery grid library
 // https://www.npmjs.com/package/react-responsive-masonry
 import Masonry, { ResponsiveMasonry } from 'react-responsive-masonry'
@@ -12,17 +13,42 @@ const Photogallery = () => {
   const isLastImage = data.i === images.length - 1
   console.log(data)
 
-  // zobrazit viac
+  // zobrazit viac/menej
   const [displayCount, setDisplayCount] = useState(20)
+
   const handleShowMoreClick = () => {
     setDisplayCount(displayCount + images.length)
   }
+  const handleShowLessClick = () => {
+    setDisplayCount(20)
+    window.scrollTo({ top: 3400, behavior: 'smooth' })
+  }
+  //
+
+  // posuvanie na klavesnici
+  useEffect(() => {
+    const handleKeyDown = (event) => {
+      if (event.key === 'ArrowLeft' && !isFirstImage && data.img) {
+        setData({ img: images[data.i - 1].src, i: data.i - 1 })
+      }
+      if (event.key === 'ArrowRight' && !isLastImage && data.img) {
+        setData({ img: images[data.i + 1].src, i: data.i + 1 })
+      }
+      if (event.key === 'Escape') {
+        setData({ img: '', i: 0 })
+      }
+    }
+    document.addEventListener('keydown', handleKeyDown)
+    return () => {
+      document.removeEventListener('keydown', handleKeyDown)
+    }
+  }, [data.i, isFirstImage, isLastImage])
+  //
   //
 
   const viewImage = (img, i) => {
     setData({ img, i })
   }
-
   const imgAction = (action) => {
     let i = data.i
     // dalej
@@ -40,18 +66,17 @@ const Photogallery = () => {
   }
 
   return (
-    <div id='gallery' className='mx-auto max-w-[1350px]   text-2xl '>
-      <div className=' mt-10 font-montserrat font-bold  m-2 '>
-        {/* o nas */}
-        <div className=' block w-full'>
-          <h1 className='text-3xl my-6'>
-            <span className='text-color-darkseablue inline text-4xl font-bold '>
+    <div id='gallery' className='grid '>
+      <div className=' font-montserrat font-bold  m-2 mt-12'>
+        {/* Galerry */}
+        <div className=' block w-full '>
+          <h1 className='text-6xl my-6 '>
+            <span className='text-color-darkseablue inline text-7xl font-bold '>
               |
             </span>
             Galeria
           </h1>
         </div>
-        {/* text */}
       </div>
       <div>
         {data.img && (
@@ -107,9 +132,26 @@ const Photogallery = () => {
             </Masonry>
           </ResponsiveMasonry>
         </div>
-        {displayCount < images.length && (
-          <button onClick={handleShowMoreClick}>Show more</button>
-        )}
+        <div className='flex flex-col w-[80%]  mx-auto font-robotoLight font-bold  py-4 text-lg md:text-3xl'>
+          {displayCount < images.length && (
+            <button
+              onClick={handleShowMoreClick}
+              className='bg-color-green m-2  hover:bg-color-seablue hover:scale-110 duration-300 transition-all text-gray-900 shadow-2xl py-2 px-4 rounded-md flex uppercase hover:text-gray-200 items-center justify-center'
+            >
+              Viac fotiek
+              <SlArrowDown size={40} className='ml-5' />
+            </button>
+          )}
+          {displayCount > images.length && (
+            <button
+              onClick={handleShowLessClick}
+              className='bg-color-green m-2  hover:bg-color-seablue hover:scale-110 duration-300 transition-all text-gray-900 shadow-2xl py-2 px-4 rounded-md flex uppercase hover:text-gray-200 items-center justify-center'
+            >
+              <SlArrowUp size={40} className='mr-5' />
+              Zobrazit menej
+            </button>
+          )}
+        </div>
       </div>
     </div>
   )

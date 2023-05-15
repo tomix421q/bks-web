@@ -13,7 +13,7 @@ const Navbar = () => {
 
   useEffect(() => {
     const changeColor = () => {
-      if (window.scrollY >= 500) {
+      if (window.scrollY >= 300) {
         setColor('black')
         setTextColor('#ffffff')
         setmbLogoVis('flex')
@@ -47,7 +47,7 @@ const Navbar = () => {
 
         <ul style={{ color: `${textColor}` }} className='hidden lg:flex'>
           <li className='p-4'>
-            <a href='/'>Domov</a>
+            <a href='#home'>Domov</a>
           </li>
           <li className='p-4'>
             <a href='/#gallery'>Nasa praca</a>
@@ -82,7 +82,7 @@ const Navbar = () => {
         >
           <ul>
             <li className='p-4 text-4xl hover:text-gray-500'>
-              <a href='/' onClick={handleNav}>
+              <a href='#home' onClick={handleNav}>
                 Domov
               </a>
             </li>
