@@ -12,53 +12,59 @@ const Hero = () => {
         id='home'
         className='  flex justify-center  min-h-screen bg-blend-overlay  bg-fixed bg-center bg-cover  '
       >
-        <div className=' max-w-[1350px]  lg:h-[900px] flex flex-col  lg:top-36 lg:flex-row z-30 '>
-          <Smallbanner />
+        <div className='lg:h-auto flex flex-col  lg:top-36 lg:flex-row z-30 '>
+          {/* <Smallbanner /> */}
           {/* case without banner */}
-          <div className='   p-2 flex flex-col md:p-6 lg:flex-row lg:mt-14'>
+          <div className='   p-2 flex flex-col lg:mt-14 mt-16 '>
             {/* BKS H1 */}
-            <div className='absolute z-30 top-0 bg-gray-800/60 flex flex-col  ml-6 max-w-[160px] plus:max-w-[190px] p-2 font-oswald md:max-w-[250px] lg:max-w-[650px] lg:relative lg:bg-transparent'>
-              <h1 className='font-oswald text-6xl text-gray-200  rounded-md  md:text-9xl lg:text-[22rem] plus:text-8xl'>
+            <div className=' flex flex-col backdrop-blur-md border-2 text-center  p-2 font-oswald  max-w-[700px]  bg-transparent '>
+              <h1 className='font-pathway  text-8xl text-gray-200  rounded-md  md:text-9xl lg:text-[16rem]  plus:text-8xl'>
                 BKS<span className='text-color-green'>.</span>
               </h1>
               {/* Kvalita */}
               <h2
                 className='
-               text-sm text-gray-300 p-2 uppercase plus:text-xl md:text-4xl  lg:text-3xl lg:ml-4'
+               text-sm text-gray-300 p-2 font-robotoLight font-light lg:text-center uppercase se:text-xl md:text-4xl  lg:text-3xl '
               >
                 <span className='text-color-green font-bold text-2xl md:text-6xl  lg:text-5xl'>
                   100%{' '}
                 </span>
                 kvalita,podľa vaších požiadaviek.
               </h2>
-              <TabsHero />
             </div>
             {/* PONUKA */}
-            <div className=' font-oswald text-gray-300  min-w-[280px] p-2 max-w-[900px] lg:mt-10  '>
-              <h2 className='text-4xl font-bold uppercase mb-6 lg:text-6xl lg:mb-10'>
-                <span className='text-color-green text-5xl lg:text-6xl '>
-                  |{' '}
-                </span>
-                Ponúkame:
-              </h2>
+            <div className=' font-oswald text-gray-700  min-w-[280px] p-2 max-w-[900px] lg:mt-10  '>
+              <div className='text-center  max-w-[350px] w-fit mx-auto '>
+                <h1 className='text-3xl lg:text-6xl  mx-auto text-white p-4 m-2  bg-gray-700/10 transition-all duration-300 ease-in-out hover:scale-105 backdrop-blur-sm font-robotoLight font-thin border-2'>
+                  {/* <span className='text-color-green text-4xl font-normal'>
+                    |
+                  </span> */}
+                  <span className='text-color-green '>[</span>
+                  Ponukame
+                  <span className='text-color-green'>]</span>
+                </h1>
+              </div>
 
-              <ul className=' text-gray-200  text-lg justify-items-center grid grid-cols-1 lg:min-w-[300px]   font-robotoLight font-normal  md:text-2xl md:mt-4 lg:text-2xl lg:ml-6  plus:text-2xl '>
-                <li className=' w-[95%] bg-black/40 border-b-2 border-color-green p-2 m-1 backdrop-blur-sm'>
+              <ul
+                className=' text-gray-200  text-lg text-center  grid grid-cols-1 min-w-[25
+              0px]   font-robotoLight font-normal  md:text-2xl md:mt-4 lg:text-2xl   plus:text-2xl '
+              >
+                <li className='  bg-black/20 border-b-2 border-color-green p-2 m-1 backdrop-blur-sm'>
                   Pokladka velkoformátovej dlažby
                 </li>
-                <li className='w-[95%] bg-black/40 border-b-2 border-color-green p-2 m-1 backdrop-blur-sm'>
+                <li className=' bg-black/20 border-b-2 border-color-green p-2 m-1 backdrop-blur-sm'>
                   {' '}
                   Obklady dlažby všetkých rozmerov
                 </li>
-                <li className='w-[95%] bg-black/40 border-b-2 border-color-green p-2 m-1 backdrop-blur-sm'>
+                <li className=' bg-black/20 border-b-2 border-color-green p-2 m-1 backdrop-blur-sm'>
                   {' '}
                   Montáž sanity
                 </li>
-                <li className='w-[95%] bg-black/40 border-b-2 border-color-green p-2 m-1 backdrop-blur-sm'>
+                <li className=' bg-black/20 border-b-2 border-color-green p-2 m-1 backdrop-blur-sm'>
                   {' '}
                   Rekonštrukcie bytov,domov
                 </li>
-                <li className='w-[95%] bg-black/40 border-b-2 border-color-green p-2 m-1 backdrop-blur-sm'>
+                <li className=' bg-black/20 border-b-2 border-color-green p-2 m-1 backdrop-blur-sm'>
                   {' '}
                   Montáž krbov
                 </li>

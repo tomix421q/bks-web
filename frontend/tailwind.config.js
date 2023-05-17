@@ -18,6 +18,7 @@ export default {
         robotoLight: ['Roboto', 'sans-serif'],
         oswald: ['Oswald', 'sans-serif'],
         montserrat: ['Montserrat Alternates', 'sans-serif'],
+        pathway: ['Pathway Extreme', 'sans-serif'],
       },
     },
   },

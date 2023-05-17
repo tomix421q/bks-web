@@ -10,11 +10,11 @@ function App() {
   return (
     <>
       <Navbar />
-      <Hero />
-      <div className='mx-auto max-w-[1350px]'>
+      <div className='mx-auto max-w-[1350px] '>
+        <Hero />
         <About />
-        <Photogallery />
         <Contact />
+        <Photogallery />
         <Footer />
       </div>
     </>

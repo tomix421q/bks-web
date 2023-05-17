@@ -67,16 +67,12 @@ const Photogallery = () => {
 
   return (
     <div id='gallery' className='grid '>
-      <div className=' font-montserrat font-bold  m-2 mt-12'>
-        {/* Galerry */}
-        <div className=' block w-full '>
-          <h1 className='text-6xl my-6 '>
-            <span className='text-color-darkseablue inline text-7xl font-bold '>
-              |
-            </span>
-            Galeria
-          </h1>
-        </div>
+      <div className='text-center mt-20 max-w-[270px] mx-auto '>
+        <h1 className='text-3xl lg:text-6xl text-white p-4  bg-gray-700/10 transition-all duration-300 ease-in-out hover:scale-105 backdrop-blur-md font-robotoLight font-thin border-2'>
+          <span className='text-color-green '>[</span>
+          <span></span>Galéria
+          <span className='text-color-green'>]</span>
+        </h1>
       </div>
       <div>
         {data.img && (
@@ -132,7 +128,7 @@ const Photogallery = () => {
             </Masonry>
           </ResponsiveMasonry>
         </div>
-        <div className='flex flex-col w-[80%]  mx-auto font-robotoLight font-bold  py-4 text-lg md:text-3xl'>
+        <div className='flex flex-col max-w-[360px]  mx-auto font-robotoLight font-bold  py-4 text-lg md:text-3xl'>
           {displayCount < images.length && (
             <button
               onClick={handleShowMoreClick}

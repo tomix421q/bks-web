@@ -1,14 +1,12 @@
 const About = () => {
   return (
-    <div id='about' className='flex w-full h-screen mt-24'>
-      <div className='font-montserrat font-bold m-2 mx-auto'>
-        {/* o nas */}
-        <div className=''>
-          <h1 className='text-5xl text-gray-100 mx-auto'>O nas</h1>
-          <span className=' border-white bg-color-green absolute left-[18%]  w-28 h-2 rounded-full '></span>
-        </div>
-        {/* text */}
-        <p className=' bg-gray-100 bg-opacity-50 backdrop-filter backdrop-blur-lg'></p>
+    <div id='about' class='flex  h-screen '>
+      <div class='text-center mt-20 max-w-[270px] mx-auto'>
+        <h1 class='text-3xl lg:text-6xl text-white p-4  bg-gray-700/10 transition-all duration-300 ease-in-out hover:scale-105 backdrop-blur-md font-robotoLight font-thin border-2'>
+          <span className='text-color-green '>[</span>
+          <span></span>O nás
+          <span className='text-color-green'>]</span>
+        </h1>
       </div>
     </div>
   )

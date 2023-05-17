@@ -1,17 +1,12 @@
 const Contact = () => {
   return (
-    <div id='contact' className='flex h-screen'>
-      <div className=' font-montserrat font-bold w-full m-2 mt-12'>
-        {/* o nas */}
-        <div className=' block w-full'>
-          <h1 className='text-6xl my-6'>
-            <span className='text-color-darkseablue inline text-7xl font-bold '>
-              |
-            </span>
-            Kontakt
-          </h1>
-        </div>
-        {/* text */}
+    <div id='contact' class='flex   h-screen mt-20'>
+      <div class='text-center mt-20  max-w-[270px] mx-auto '>
+        <h1 class='text-3xl lg:text-6xl text-white p-4  bg-gray-700/10 transition-all duration-300 ease-in-out hover:scale-105 backdrop-blur-md font-robotoLight font-thin border-2'>
+          <span class='text-color-green '>[</span>
+          <span></span>Kontakt
+          <span class='text-color-green'>]</span>
+        </h1>
       </div>
     </div>
   )

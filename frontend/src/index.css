@@ -54,3 +54,23 @@ html {
 .tabGlobal:hover {
   transform: scale(200%);
 }
+
+@keyframes separate-letters {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(10px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.animate-fade-in-letters {
+  animation: separate-letters 0.5s ease-in-out;
+}
+
+.animate-fade-in-letters:hover {
+  animation: separate-letters 0.5s ease-in-out;
+}
