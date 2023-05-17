@@ -34,13 +34,13 @@ const Hero = () => {
             </div>
             {/* PONUKA */}
             <div className=' font-oswald text-gray-700  min-w-[280px] p-2 max-w-[900px] lg:mt-10  '>
-              <div className='text-center  max-w-[350px] w-fit mx-auto '>
+              <div className='text-center w-fit mx-auto '>
                 <h1 className='text-3xl lg:text-6xl  mx-auto text-white p-4 m-2  bg-gray-700/10 transition-all duration-300 ease-in-out hover:scale-105 backdrop-blur-sm font-robotoLight font-thin border-2'>
                   {/* <span className='text-color-green text-4xl font-normal'>
                     |
                   </span> */}
                   <span className='text-color-green '>[</span>
-                  Ponukame
+                  Naše služby
                   <span className='text-color-green'>]</span>
                 </h1>
               </div>
