@@ -15,7 +15,7 @@ const Hero = () => {
         <div className='lg:h-auto flex flex-col  lg:top-36 lg:flex-row z-30 '>
           {/* <Smallbanner /> */}
           {/* case without banner */}
-          <div className='   p-2 flex flex-col lg:mt-14 mt-16 '>
+          <div className='   p-2 flex flex-col lg:mt-14 mt-20 '>
             {/* BKS H1 */}
             <div className=' flex flex-col backdrop-blur-md border-2 text-center  p-2 font-oswald  max-w-[700px]  bg-transparent '>
               <h1 className='font-pathway  text-8xl text-gray-200  rounded-md  md:text-9xl lg:text-[16rem]  plus:text-8xl'>

@@ -29,19 +29,31 @@ const Navbar = () => {
   return (
     <div
       style={{ backgroundColor: `${color}` }}
-      className='fixed left-0 top-0 w-full  ease-in duration-300  z-40'
+      className='fixed left-0 top-0` w-full  ease-in duration-300  z-40'
     >
-      <div className='max-w-full m-auto flex justify-between  p-2  items-center '>
+      <div className='max-w-full m-auto flex justify-between  p-2 lg:bg-transparent bg-black  items-center '>
         {/*  */}
         {/* Logo pre lg */}
         <a href='/'>
-          <div className='hidden lg:flex logo-img w-[60px] scale-75 h-[60px] bg-color-green rounded-md'></div>
+          <div className='hidden lg:flex w-[80px]  h-[60px] bg-black/40 backdrop-blur-lg   p-2'>
+            <img
+              src='../../src/assets/logo/logoWithoutBACK.png'
+              className=''
+              alt=''
+            />
+          </div>
         </a>
         {/* Logo pre sm */}
         <a href='/'>
           <div
-            className={`logo-img w-[60px] absolute top-1.5 left-2 scale-75 h-[60px] bg-color-green rounded-md ${mbLogoVis}`}
-          ></div>
+            className={`logo-img w-[70px] lg:hidden absolute left-2 top-3 p-1 h-14 bg-black backdrop-blur-lg `}
+          >
+            <img
+              src='../../src/assets/logo/logoWithoutBACK.png'
+              className=''
+              alt=''
+            />
+          </div>
         </a>
         {/*  */}
 

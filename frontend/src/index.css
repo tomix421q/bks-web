@@ -30,47 +30,9 @@ html {
 }
 
 .logo-img {
-  background-image: url('./assets/wallpaper/logo.png');
-}
-
-.hero-tab1 {
-  background-image: url('./assets/foto/13.jpg');
-  background-position: center;
-  background-size: cover;
-}
-
-.hero-tab2 {
-  background-image: url('./assets/foto/12.jpg');
-  background-position: center;
-  background-size: cover;
-}
-
-.hero-tab3 {
-  background-image: url('./assets/foto/14.jpg');
-  background-position: center;
-  background-size: cover;
+  background-image: url('./assets/logo/logoWithoutBACK.png');
 }
 
 .tabGlobal:hover {
   transform: scale(200%);
-}
-
-@keyframes separate-letters {
-  0% {
-    transform: translateX(0);
-  }
-  50% {
-    transform: translateX(10px);
-  }
-  100% {
-    transform: translateX(0);
-  }
-}
-
-.animate-fade-in-letters {
-  animation: separate-letters 0.5s ease-in-out;
-}
-
-.animate-fade-in-letters:hover {
-  animation: separate-letters 0.5s ease-in-out;
 }
