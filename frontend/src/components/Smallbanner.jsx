@@ -33,7 +33,7 @@ const Smallbanner = () => {
     )
   }
   return (
-    <div className='w-screen h-auto rounded-sm place-self-start align-top items-start z-30 lg:hidden '>
+    <div className='md:mx-auto lg:w-[50%] z-30  shadow-md shadow-black hidden lg:block'>
       <MyImageGallery />
     </div>
   )
