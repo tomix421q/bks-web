@@ -1,39 +1,86 @@
+import { RiContactsFill } from 'react-icons/ri'
+import { BiMap } from 'react-icons/Bi'
+
 const About = () => {
   return (
-    <div id='about' class='min-h-auto '>
-      <div class='text-center mt-20 max-w-[270px] mx-auto'>
-        <h1 class='text-3xl lg:text-6xl text-white p-4  bg-gray-700/10 transition-all duration-300 ease-in-out hover:scale-105 backdrop-blur-md font-robotoLight font-thin border-2'>
+    <div id='about' class='min-h-screen  mt-20 '>
+      <div class='text-center  max-w-[270px] mx-auto h-[300px] translate-y-24'>
+        <h1 class='text-3xl lg:text-6xl text-white p-4  bg-gray-700/10 transition-all duration-300 ease-in-out hover:scale-105 backdrop-blur-md font-robotoLight font-thin border-2 '>
           <span className='text-color-green '>[</span>
           <span></span>O nás
           <span className='text-color-green'>]</span>
         </h1>
       </div>
-      <div className='flex mt-16 bg-gray-800/30 backdrop-blur-sm p-6 hover:scale-105 duration-150 ease-linear '>
-        <p className='text-5xl max-w-[700px] text-white font-thin font-robotoLight'>
-          Sme partia obkladačov s dlhoročnými skúsenosťami čo sa týka obkladov
-          dlažieb sme jedny s prvých čo na Slovensku začali robiť s
-          veľkoformatovymi dlažbami do rozmerov 160x320cm mame cit pre detail
-          estetickosť sme priateľský a pracujeme na profesionálnej úrovni{' '}
+
+      <div className='flex bg-gray-800/40 backdrop-blur-sm p-6 hover:scale-105 duration-150 ease-linear justify-around items-center '>
+        {/* LEFT ABOUT  */}
+        <p className='text-4xl max-w-[600px] text-white font-normal font-robotoLight'>
+          Sme partia obkladačov s{' '}
+          <span className='text-color-green'>dlhoročnými</span> skúsenosťami na
+          trhu.
+          <br />
+          Patríme k jedným z prvých, ktorí na Slovensku začali pracovať s
+          veľkoformátovými dlažbami do rozmerov 160x320cm.
+          <br />
+          Máme
+          <span className='text-color-green'> cit pre detail a estetiku</span>
+          ,sme priateľský, a pracujeme na profesionálnej úrovni.{' '}
         </p>
+        {/* RIGHT ABOUT  */}
+        <div className='max-w-[600px]'>
+          <h2 className='text-6xl text-center font-bold m-4  text-gray-100 font-robotoLight '>
+            Miesta kde
+            <span className='text-color-green rotate-2'> posobime</span>
+            <BiMap className='mx-auto  text-5xl ' />
+          </h2>
+          <p className='text-4xl max-w-[600px] text-white font-thin font-robotoLight text-center'>
+            Trnavsky kraj, Trenčiansky kraj, Banskobystricky kraj, Žilinsky kraj
+            a taktiez Orave.
+          </p>
+
+          <a
+            href='#contact'
+            className=' bg-color-green m-10 hover:bg-color-seablue hover:scale-110 hover:rotate-2 duration-300 transition-all text-gray-900 text-2xl shadow-2xl py-2 px-4 rounded-md flex uppercase hover:text-gray-200 items-center justify-center max-w-[300px] mx-auto'
+          >
+            <RiContactsFill size={30} className='mr-2 ' />
+            Mam zaujem
+          </a>
+        </div>
       </div>
       {/*  */}
-      <div>
-        <h2 className='text-8xl text-center font-bold m-10 mt-20 text-gray-100 font-robotoLight '>
+      {/* PRECO U NAS ???  */}
+      <div className='mt-52'>
+        <h2 className='text-8xl text-center font-bold m-10  text-gray-100 font-robotoLight backdrop-blur-sm '>
           Prečo realizáciu
           <span className='text-color-green rotate-2'> od nás?</span>
         </h2>
-        <ul className='mx-auto text-4xl list-disc max-w-[800px] text-gray-100 backdrop-blur-md font-thin bg-black'>
-          <li className='p-2'>
-            viac ako 25 ročne skúsenosti s obkladačskymi prácami{' '}
+        <ul className='mx-auto text-3xl max-w-fit text-white  font-robotoLight list-inside list-disc '>
+          <li className='p-4 px-16 bg-gray-800/60 m-6 shadow-2xl hover:scale-105 duration-150 ease-in rounded-md '>
+            <span className='text-color-green text-4xl font-extrabold'>| </span>
+            Viac ako 25 ročne skúsenosti s obkladačskymi prácami{' '}
           </li>
-          <li className='p-2'>skvelý tým majstrov</li>
-          <li className='p-2'>skvelý a ľudský prístup k majiteľom</li>
-          <li className='p-2'>kvalita za dostupnú cenu pre všetkých</li>
-          <li className='p-2'>vysoká kvalita cit pre detail a estetiku</li>
-          <li className='p-2'>
+          <li className='p-4 px-16 bg-gray-800/40 m-6 shadow-2xl hover:scale-105 duration-150 ease-in rounded-md'>
+            <span className='text-color-green text-4xl font-extrabold'>| </span>
+            Skvelý tým majstrov
+          </li>
+          <li className='p-4 px-16 bg-gray-800/60 m-6 shadow-2xl hover:scale-105 duration-150 ease-in rounded-md'>
+            <span className='text-color-green text-4xl font-extrabold'>| </span>
+            Skvelý a ľudský prístup k majiteľom
+          </li>
+          <li className='p-4 px-16 bg-gray-800/40 m-6 shadow-2xl hover:scale-105 duration-150 ease-in rounded-md'>
+            <span className='text-color-green text-4xl font-extrabold'>| </span>
+            Kvalita za dostupnú cenu pre všetkých
+          </li>
+          <li className='p-4 px-16 bg-gray-800/60 m-6 shadow-2xl hover:scale-105 duration-150 ease-in rounded-md'>
+            <span className='text-color-green text-4xl font-extrabold'>| </span>
+            Vysoká kvalita cit pre detail a estetiku
+          </li>
+          <li className='p-4 px-16 bg-gray-800/40 m-6 shadow-2xl hover:scale-105 duration-150 ease-in rounded-md'>
+            <span className='text-color-green text-4xl font-extrabold'>| </span>
             Možnosť vybaviť obklady Dlažby za rozumné ceny u dodávateľov
           </li>
-          <li className='p-2'>
+          <li className='p-4 px-16 bg-gray-800/60 m-6 shadow-2xl hover:scale-105 duration-150 ease-in rounded-md'>
+            <span className='text-color-green text-4xl font-extrabold'>| </span>
             Možnost zabezpečiť material na realizaciu za 30-40% zľavy
           </li>
         </ul>

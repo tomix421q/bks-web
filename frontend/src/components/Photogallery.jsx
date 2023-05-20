@@ -5,7 +5,7 @@ import { SlArrowDown, SlArrowUp } from 'react-icons/Sl'
 // Gallery grid library
 // https://www.npmjs.com/package/react-responsive-masonry
 import Masonry, { ResponsiveMasonry } from 'react-responsive-masonry'
-import images from '../photos'
+import images from '../../src/assets/photos'
 
 const Photogallery = () => {
   const [data, setData] = useState({ img: '', i: 0 })
@@ -110,7 +110,7 @@ const Photogallery = () => {
           </div>
         )}
 
-        <div className='p-[10px]'>
+        <div className='p-[20px] bg-black/30 '>
           <ResponsiveMasonry
             columnsCountBreakPoints={{ 350: 2, 750: 2, 900: 4 }}
           >

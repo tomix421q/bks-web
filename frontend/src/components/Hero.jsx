@@ -1,4 +1,6 @@
 import Smallbanner from './Smallbanner'
+import { FaHammer } from 'react-icons/fa'
+import { RiContactsFill } from 'react-icons/ri'
 
 const Hero = () => {
   return (
@@ -15,7 +17,7 @@ const Hero = () => {
                 BKS<span className='text-color-green'>.</span>
               </h1>
 
-              {/* Kvalita */}
+              {/* PODTEXT */}
               <h2
                 className='
                text-sm text-gray-300 p-2 font-robotoLight font-light lg:text-center uppercase se:text-xl md:text-4xl  lg:text-5xl w-[95%]'
@@ -35,6 +37,23 @@ const Hero = () => {
                   Pán
                 </span>
               </h2>
+              {/* BUTTONS  */}
+              <div className='flex flex-col lg:flex-row mx-auto font-robotoLight font-bold  py-4 text-lg md:text-3xl '>
+                <a
+                  href='#gallery'
+                  className=' bg-color-green m-2  hover:bg-color-seablue hover:scale-110 hover:rotate-2 duration-300 transition-all text-gray-900 shadow-2xl py-2 px-8 rounded-md flex uppercase hover:text-gray-200 items-center justify-center  '
+                >
+                  <FaHammer size={25} className='mr-2' />
+                  Realizacie
+                </a>
+                <a
+                  href='#contact'
+                  className=' bg-color-green m-2 hover:bg-color-seablue hover:scale-110 hover:rotate-2 duration-300 transition-all text-gray-900 shadow-2xl py-2 px-10 rounded-md flex uppercase hover:text-gray-200 items-center justify-center'
+                >
+                  <RiContactsFill size={25} className='mr-2 ' />
+                  Kontakt
+                </a>
+              </div>
             </div>
             <Smallbanner />
           </div>
