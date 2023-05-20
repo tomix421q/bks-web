@@ -1,5 +1,5 @@
-import RiContactsFill from 'react-icons/ri'
-import BiMap from 'react-icons/Bi'
+import { RiContactsFill } from 'react-icons/ri'
+import { BiMap } from 'react-icons/Bi'
 
 const About = () => {
   return (
