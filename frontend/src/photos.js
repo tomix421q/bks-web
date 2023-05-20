@@ -1,33 +1,33 @@
 const images = [
   {
-    src: '../src/assets/foto/1.jpg',
+    src: '../public/foto/1.jpg',
   },
   {
-    src: '../src/assets/foto/2.jpg',
+    src: '../public/foto/2.jpg',
   },
   {
-    src: '../src/assets/foto/3.jpg',
+    src: '../public/foto/3.jpg',
   },
   {
-    src: '../src/assets/foto/4.jpg',
+    src: '../public/foto/4.jpg',
   },
   {
-    src: '../src/assets/foto/5.jpg',
+    src: '../public/foto/5.jpg',
   },
   {
-    src: '../src/assets/foto/6.jpg',
+    src: '../public/foto/6.jpg',
   },
   {
-    src: '../src/assets/foto/7.jpg',
+    src: '../public/foto/7.jpg',
   },
   {
-    src: '../src/assets/foto/8.jpg',
+    src: '../public/foto/8.jpg',
   },
   {
-    src: '../src/assets/foto/9.jpg',
+    src: '../public/foto/9.jpg',
   },
   {
-    src: '../src/assets/foto/10.jpg',
+    src: '../public/foto/10.jpg',
   },
   {
     src: '../src/assets/foto/11.jpg',
