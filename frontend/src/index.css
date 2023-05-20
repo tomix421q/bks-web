@@ -12,7 +12,7 @@
 html {
   scroll-behavior: smooth;
 
-  background-image: url('./assets/wallpaper/desktop1.jpg');
+  background-image: url('../photos/wallpaper/desktop1.jpg');
   background-position: fixed;
   background-repeat: no-repeat;
   background-size: cover;
@@ -26,11 +26,11 @@ html {
 }
 
 .hero-img {
-  background-image: url('./assets/wallpaper/desktop1.jpg');
+  background-image: url('../photos/wallpaper/desktop1.jpg');
 }
 
 .logo-img {
-  background-image: url('./assets/logo/logoWithoutBACK.png');
+  background-image: url('../photos/logo/logoWithoutBACK.png');
 }
 
 .tabGlobal:hover {

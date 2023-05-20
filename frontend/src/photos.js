@@ -1,213 +1,213 @@
 const images = [
   {
-    src: '../public/foto/1.jpg',
+    src: '../photos/foto/1.jpg',
   },
   {
-    src: '../public/foto/2.jpg',
+    src: '../photos/foto/2.jpg',
   },
   {
-    src: '../public/foto/3.jpg',
+    src: '../photos/foto/3.jpg',
   },
   {
-    src: '../public/foto/4.jpg',
+    src: '../photos/foto/4.jpg',
   },
   {
-    src: '../public/foto/5.jpg',
+    src: '../photos/foto/5.jpg',
   },
   {
-    src: '../public/foto/6.jpg',
+    src: '../photos/foto/6.jpg',
   },
   {
-    src: '../public/foto/7.jpg',
+    src: '../photos/foto/7.jpg',
   },
   {
-    src: '../public/foto/8.jpg',
+    src: '../photos/foto/8.jpg',
   },
   {
-    src: '../public/foto/9.jpg',
+    src: '../photos/foto/9.jpg',
   },
   {
-    src: '../public/foto/10.jpg',
+    src: '../photos/foto/10.jpg',
   },
   {
-    src: '../src/assets/foto/11.jpg',
+    src: '..photos//foto/11.jpg',
   },
   {
-    src: '../src/assets/foto/12.jpg',
+    src: '..photos//foto/12.jpg',
   },
   {
-    src: '../src/assets/foto/13.jpg',
+    src: '..photos//foto/13.jpg',
   },
   {
-    src: '../src/assets/foto/14.jpg',
+    src: '../photos/foto/14.jpg',
   },
   {
-    src: '../src/assets/foto/15.jpg',
+    src: '../photos/foto/15.jpg',
   },
   {
-    src: '../src/assets/foto/16.jpg',
+    src: '../photos/foto/16.jpg',
   },
   {
-    src: '../src/assets/foto/17.jpg',
+    src: '../photos/foto/17.jpg',
   },
   {
-    src: '../src/assets/foto/18.jpg',
+    src: '../photos/foto/18.jpg',
   },
   {
-    src: '../src/assets/foto/19.jpg',
+    src: '../photos/foto/19.jpg',
   },
   {
-    src: '../src/assets/foto/20.jpg',
+    src: '../photos/foto/20.jpg',
   },
   {
-    src: '../src/assets/foto/21.jpg',
+    src: '../photos/foto/21.jpg',
   },
   {
-    src: '../src/assets/foto/22.jpg',
+    src: '../photos/foto/22.jpg',
   },
   {
-    src: '../src/assets/foto/23.jpg',
+    src: '../photos/foto/23.jpg',
   },
   {
-    src: '../src/assets/foto/24.jpg',
+    src: '../photos/foto/24.jpg',
   },
   {
-    src: '../src/assets/foto/25.jpg',
+    src: '../photos/foto/25.jpg',
   },
   {
-    src: '../src/assets/foto/26.jpg',
+    src: '../photos/foto/26.jpg',
   },
   {
-    src: '../src/assets/foto/27.jpg',
+    src: '../photos/foto/27.jpg',
   },
   {
-    src: '../src/assets/foto/28.jpg',
+    src: '../photos/foto/28.jpg',
   },
   {
-    src: '../src/assets/foto/29.jpg',
+    src: '../photos/foto/29.jpg',
   },
   {
-    src: '../src/assets/foto/30.jpg',
+    src: '../photos/foto/30.jpg',
   },
   {
-    src: '../src/assets/foto/31.jpg',
+    src: '../photos/foto/31.jpg',
   },
   {
-    src: '../src/assets/foto/32.jpg',
+    src: '../photos/foto/32.jpg',
   },
   {
-    src: '../src/assets/foto/33.jpg',
+    src: '../photos/foto/33.jpg',
   },
   {
-    src: '../src/assets/foto/34.jpg',
+    src: '../photos/foto/34.jpg',
   },
   {
-    src: '../src/assets/foto/35.jpg',
+    src: '../photos/foto/35.jpg',
   },
   {
-    src: '../src/assets/foto/36.jpg',
+    src: '../photos/foto/36.jpg',
   },
   {
-    src: '../src/assets/foto/37.jpg',
+    src: '../photos/foto/37.jpg',
   },
   {
-    src: '../src/assets/foto/38.jpg',
+    src: '../photos/foto/38.jpg',
   },
   {
-    src: '../src/assets/foto/39.jpg',
+    src: '../photos/foto/39.jpg',
   },
   {
-    src: '../src/assets/foto/40.jpg',
+    src: '../photos/foto/40.jpg',
   },
   {
-    src: '../src/assets/foto/41.jpg',
+    src: '../photos/foto/41.jpg',
   },
   {
-    src: '../src/assets/foto/42.jpg',
+    src: '../photos/foto/42.jpg',
   },
   {
-    src: '../src/assets/foto/43.jpg',
+    src: '../photos/foto/43.jpg',
   },
   {
-    src: '../src/assets/foto/44.jpg',
+    src: '../photos/foto/44.jpg',
   },
   {
-    src: '../src/assets/foto/45.jpg',
+    src: '../photos/foto/45.jpg',
   },
   {
-    src: '../src/assets/foto/46.jpg',
+    src: '../photos/foto/46.jpg',
   },
   {
-    src: '../src/assets/foto/47.jpg',
+    src: '../photos/foto/47.jpg',
   },
   {
-    src: '../src/assets/foto/48.jpg',
+    src: '../photos/foto/48.jpg',
   },
   {
-    src: '../src/assets/foto/49.jpg',
+    src: '../photos/foto/49.jpg',
   },
   {
-    src: '../src/assets/foto/50.jpg',
+    src: '../photos/foto/50.jpg',
   },
   {
-    src: '../src/assets/foto/51.jpg',
+    src: '../photos/foto/51.jpg',
   },
   {
-    src: '../src/assets/foto/52.jpg',
+    src: '../photos/foto/52.jpg',
   },
   {
-    src: '../src/assets/foto/53.jpg',
+    src: '../photos/foto/53.jpg',
   },
   {
-    src: '../src/assets/foto/54.jpg',
+    src: '../photos/foto/54.jpg',
   },
   {
-    src: '../src/assets/foto/55.jpg',
+    src: '../photos/foto/55.jpg',
   },
   {
-    src: '../src/assets/foto/56.jpg',
+    src: '../photos/foto/56.jpg',
   },
   {
-    src: '../src/assets/foto/57.jpg',
+    src: '../photos/foto/57.jpg',
   },
   {
-    src: '../src/assets/foto/58.jpg',
+    src: '../photos/foto/58.jpg',
   },
   {
-    src: '../src/assets/foto/59.jpg',
+    src: '../photos/foto/59.jpg',
   },
   {
-    src: '../src/assets/foto/60.jpg',
+    src: '../photos/foto/60.jpg',
   },
   {
-    src: '../src/assets/foto/61.jpg',
+    src: '../photos/foto/61.jpg',
   },
   {
-    src: '../src/assets/foto/62.jpg',
+    src: '../photos/foto/62.jpg',
   },
   {
-    src: '../src/assets/foto/63.jpg',
+    src: '../photos/foto/63.jpg',
   },
   {
-    src: '../src/assets/foto/64.jpg',
+    src: '../photos/foto/64.jpg',
   },
   {
-    src: '../src/assets/foto/65.jpg',
+    src: '../photos/foto/65.jpg',
   },
   {
-    src: '../src/assets/foto/66.jpg',
+    src: '../photos/foto/66.jpg',
   },
   {
-    src: '../src/assets/foto/67.jpg',
+    src: '../photos/foto/67.jpg',
   },
   {
-    src: '../src/assets/foto/68.jpg',
+    src: '../photos/foto/68.jpg',
   },
   {
-    src: '../src/assets/foto/69.jpg',
+    src: '../photos/foto/69.jpg',
   },
   {
-    src: '../src/assets/foto/70.jpg',
+    src: '../photos/foto/70.jpg',
   },
 ]
 
