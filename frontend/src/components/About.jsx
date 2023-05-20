@@ -1,5 +1,5 @@
 import { RiContactsFill } from 'react-icons/ri'
-import { BiMap } from 'react-icons/Bi'
+// import { BiMap } from 'react-icons/Bi'
 
 const About = () => {
   return (
@@ -31,7 +31,7 @@ const About = () => {
           <h2 className='text-6xl text-center font-bold m-4  text-gray-100 font-robotoLight '>
             Miesta kde
             <span className='text-color-green rotate-2'> posobime</span>
-            <BiMap className='mx-auto  text-5xl ' />
+            {/* <BiMap className='mx-auto  text-5xl ' /> */}
           </h2>
           <p className='text-4xl max-w-[600px] text-white font-thin font-robotoLight text-center'>
             Trnavsky kraj, Trenčiansky kraj, Banskobystricky kraj, Žilinsky kraj
