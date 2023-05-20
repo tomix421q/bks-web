@@ -5,7 +5,7 @@ import { SlArrowDown, SlArrowUp } from 'react-icons/Sl'
 // Gallery grid library
 // https://www.npmjs.com/package/react-responsive-masonry
 import Masonry, { ResponsiveMasonry } from 'react-responsive-masonry'
-import images from '../../src/assets/photos'
+import images from '../photos'
 
 const Photogallery = () => {
   const [data, setData] = useState({ img: '', i: 0 })

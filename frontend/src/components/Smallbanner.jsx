@@ -5,7 +5,7 @@ import 'react-image-gallery/styles/css/image-gallery.css'
 const Smallbanner = () => {
   const images = [
     {
-      original: '../../src/assets/foto/11.jpg',
+      original: '../../src/assets/foto/3.jpg',
       thumbnail: 'https://picsum.photos/id/1018/250/150/',
     },
     {
