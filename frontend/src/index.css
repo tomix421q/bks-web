@@ -21,6 +21,30 @@ html {
   background-color: rgb(0 0 0 / 0.5);
 }
 
+@media (max-width: 767px) {
+  body {
+    background-image: url('../photos/wallpaper/mobile1.jpg');
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-blend-mode: overlay;
+    background-color: rgb(0 0 0 / 0.5);
+  }
+}
+
+@media (min-width: 768px) {
+  body {
+    background-image: url('../photos/wallpaper/desktop3.jpg');
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-blend-mode: overlay;
+    background-color: rgb(0 0 0 / 0.4);
+  }
+}
+
 * {
   box-sizing: border-box;
 }
@@ -35,4 +59,13 @@ html {
 
 .tabGlobal:hover {
   transform: scale(200%);
+}
+
+.lazy-loaded-content {
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.lazy-loaded-content.lazy-load-loaded {
+  opacity: 1;
 }

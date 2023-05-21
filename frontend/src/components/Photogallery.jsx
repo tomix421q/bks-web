@@ -69,7 +69,7 @@ const Photogallery = () => {
   return (
     <div id='gallery' className='grid '>
       <div className='text-center mt-20 max-w-[270px] mx-auto '>
-        <h1 className='text-3xl lg:text-6xl text-white p-4  bg-gray-700/10 transition-all duration-300 ease-in-out hover:scale-105 backdrop-blur-md font-robotoLight font-thin border-2'>
+        <h1 className='text-3xl lg:text-6xl text-white p-4 m-2  bg-gray-700/10 transition-all duration-300 ease-in-out hover:scale-105 backdrop-blur-md font-robotoLight font-thin border-2'>
           <span className='text-color-green '>[</span>
           <span></span>Galéria
           <span className='text-color-green'>]</span>
@@ -111,17 +111,21 @@ const Photogallery = () => {
           </div>
         )}
 
-        <div className='p-[20px] bg-black/30 '>
+        <div className='p-4 lg:p-[40px] bg-black/50 '>
           <ResponsiveMasonry
             columnsCountBreakPoints={{ 350: 2, 750: 2, 900: 4 }}
           >
-            <Masonry gutter='20px'>
+            <Masonry gutter='12px'>
               {images.slice(0, displayCount).map((image, i) => (
                 <img
                   key={i}
                   src={image.src}
-                  className='hover:scale-105 duration-200 ease-in'
-                  style={{ width: '100%', display: 'block', cursor: 'pointer' }}
+                  className='hover:scale-105 duration-200 ease-in p-2'
+                  style={{
+                    width: '100%',
+                    display: 'block',
+                    cursor: 'pointer',
+                  }}
                   alt=''
                   onClick={() => viewImage(image.src, i)}
                 />
@@ -129,7 +133,7 @@ const Photogallery = () => {
             </Masonry>
           </ResponsiveMasonry>
         </div>
-        <div className='flex flex-col max-w-[360px]  mx-auto font-robotoLight font-bold  py-4 text-lg md:text-3xl'>
+        <div className='flex flex-col max-w-[360px] mx-auto font-robotoLight font-bold  py-4 text-lg md:text-3xl'>
           {displayCount < images.length && (
             <button
               onClick={handleShowMoreClick}

@@ -15,7 +15,9 @@
     "react-dom": "^18.2.0",
     "react-icons": "^4.8.0",
     "react-image-gallery": "^1.2.11",
-    "react-responsive-masonry": "^2.1.7"
+    "react-lazy-load": "^4.0.1",
+    "react-responsive-masonry": "^2.1.7",
+    "react-spinners": "^0.13.8"
   },
   "devDependencies": {
     "@types/react": "^18.0.28",

@@ -55,7 +55,7 @@ const About = () => {
           Prečo realizáciu
           <span className='text-color-green rotate-2'> od nás?</span>
         </h2>
-        <ul className='mx-auto md:text-3xl text-xl text-center max-w-fit text-white  font-robotoLight list-inside md:list-disc '>
+        <ul className='mx-auto md:text-3xl text-xl md:text-left text-center max-w-fit text-white  font-robotoLight list-inside md:list-disc '>
           <li className='p-4 md:px-16 bg-gray-800/60 m-6 shadow-2xl hover:scale-105 duration-150 ease-in rounded-md '>
             <span className='text-color-green text-4xl font-extrabold'>| </span>
             Viac ako 25 ročne skúsenosti s obkladačskymi prácami{' '}
