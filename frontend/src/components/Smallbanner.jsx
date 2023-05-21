@@ -5,15 +5,35 @@ import 'react-image-gallery/styles/css/image-gallery.css'
 const Smallbanner = () => {
   const images = [
     {
-      original: '../../photos/foto/3.jpg',
+      original: '../../photos/foto/21.jpg',
       thumbnail: 'https://picsum.photos/id/1018/250/150/',
     },
     {
-      original: '../../photos/foto/12.jpg',
+      original: '../../photos/foto/23.jpg',
       thumbnail: 'https://picsum.photos/id/1015/250/150/',
     },
     {
-      original: '../../photos/foto/13.jpg',
+      original: '../../photos/foto/36.jpg',
+      thumbnail: 'https://picsum.photos/id/1019/250/150/',
+    },
+    {
+      original: '../../photos/foto/37.jpg',
+      thumbnail: 'https://picsum.photos/id/1019/250/150/',
+    },
+    {
+      original: '../../photos/foto/55.jpg',
+      thumbnail: 'https://picsum.photos/id/1019/250/150/',
+    },
+    {
+      original: '../../photos/foto/63.jpg',
+      thumbnail: 'https://picsum.photos/id/1019/250/150/',
+    },
+    {
+      original: '../../photos/foto/66.jpg',
+      thumbnail: 'https://picsum.photos/id/1019/250/150/',
+    },
+    {
+      original: '../../photos/foto/70.jpg',
       thumbnail: 'https://picsum.photos/id/1019/250/150/',
     },
   ]

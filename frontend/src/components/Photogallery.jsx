@@ -1,4 +1,6 @@
 import React, { useState, useEffect } from 'react'
+import LazyLoad from 'react-lazy-load'
+//
 import { FcNext, FcPrevious } from 'react-icons/fc'
 import { CgClose } from 'react-icons/cg'
 import { SlArrowDown, SlArrowUp } from 'react-icons/Sl'
@@ -112,26 +114,28 @@ const Photogallery = () => {
         )}
 
         <div className='p-4 lg:p-[40px] bg-black/50 '>
-          <ResponsiveMasonry
-            columnsCountBreakPoints={{ 350: 2, 750: 2, 900: 4 }}
-          >
-            <Masonry gutter='12px'>
-              {images.slice(0, displayCount).map((image, i) => (
-                <img
-                  key={i}
-                  src={image.src}
-                  className='hover:scale-105 duration-200 ease-in p-2'
-                  style={{
-                    width: '100%',
-                    display: 'block',
-                    cursor: 'pointer',
-                  }}
-                  alt=''
-                  onClick={() => viewImage(image.src, i)}
-                />
-              ))}
-            </Masonry>
-          </ResponsiveMasonry>
+          <LazyLoad offset={2000}>
+            <ResponsiveMasonry
+              columnsCountBreakPoints={{ 350: 2, 750: 2, 900: 4 }}
+            >
+              <Masonry gutter='12px'>
+                {images.slice(0, displayCount).map((image, i) => (
+                  <img
+                    key={i}
+                    src={image.src}
+                    className='hover:scale-105 duration-200 ease-in p-2'
+                    style={{
+                      width: '100%',
+                      display: 'block',
+                      cursor: 'pointer',
+                    }}
+                    alt=''
+                    onClick={() => viewImage(image.src, i)}
+                  />
+                ))}
+              </Masonry>
+            </ResponsiveMasonry>
+          </LazyLoad>
         </div>
         <div className='flex flex-col max-w-[360px] mx-auto font-robotoLight font-bold  py-4 text-lg md:text-3xl'>
           {displayCount < images.length && (

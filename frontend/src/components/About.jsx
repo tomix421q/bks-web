@@ -1,5 +1,7 @@
 import { RiContactsFill } from 'react-icons/ri'
 import { BiMap } from 'react-icons/Bi'
+import LazyLoad from 'react-lazy-load'
+import React from 'react'
 
 const About = () => {
   return (
@@ -14,6 +16,7 @@ const About = () => {
 
       <div className='m-2 flex flex-col md:gap-6 md:flex-row bg-gray-800/40 backdrop-blur-sm p-6 hover:scale-105 duration-150 ease-linear justify-around items-center '>
         {/* LEFT ABOUT  */}
+
         <p className='text-xl text-center md:text-3xl lg:text-4xl max-w-[600px] text-white font-normal font-robotoLight'>
           Sme partia obkladačov s{' '}
           <span className='text-color-green'>dlhoročnými</span> skúsenosťami na
@@ -26,6 +29,7 @@ const About = () => {
           <span className='text-color-green'> cit pre detail a estetiku</span>
           ,sme priateľský, a pracujeme na profesionálnej úrovni.{' '}
         </p>
+
         <span className='m-2 w-full h-1 bg-color-seablue bg-opacity-60 rounded-full md:hidden'></span>
         {/* RIGHT ABOUT  */}
         <div className='max-w-[600px]'>
@@ -55,33 +59,48 @@ const About = () => {
           Prečo realizáciu
           <span className='text-color-green rotate-2'> od nás?</span>
         </h2>
-        <ul className='mx-auto md:text-3xl text-xl md:text-left text-center max-w-fit text-white  font-robotoLight list-inside md:list-disc '>
+
+        <ul className='mx-auto md:text-3xl text-xl text-center md:text-left max-w-fit text-white  font-robotoLight'>
           <li className='p-4 md:px-16 bg-gray-800/60 m-6 shadow-2xl hover:scale-105 duration-150 ease-in rounded-md '>
-            <span className='text-color-green text-4xl font-extrabold'>| </span>
+            <span className='text-color-green md:text-4xl text-2xl font-extrabold'>
+              |{' '}
+            </span>
             Viac ako 25 ročne skúsenosti s obkladačskymi prácami{' '}
           </li>
           <li className='p-4 md:px-16 bg-gray-800/40 m-6 shadow-2xl hover:scale-105 duration-150 ease-in rounded-md'>
-            <span className='text-color-green text-4xl font-extrabold'>| </span>
+            <span className='text-color-green md:text-4xl text-2xl font-extrabold'>
+              |{' '}
+            </span>
             Skvelý tým majstrov
           </li>
           <li className='p-4 md:px-16 bg-gray-800/60 m-6 shadow-2xl hover:scale-105 duration-150 ease-in rounded-md'>
-            <span className='text-color-green text-4xl font-extrabold'>| </span>
+            <span className='text-color-green md:text-4xl text-2xl font-extrabold'>
+              |{' '}
+            </span>
             Skvelý a ľudský prístup k majiteľom
           </li>
           <li className='p-4 md:px-16 bg-gray-800/40 m-6 shadow-2xl hover:scale-105 duration-150 ease-in rounded-md'>
-            <span className='text-color-green text-4xl font-extrabold'>| </span>
+            <span className='text-color-green md:text-4xl text-2xl font-extrabold'>
+              |{' '}
+            </span>
             Kvalita za dostupnú cenu pre všetkých
           </li>
           <li className='p-4 md:px-16 bg-gray-800/60 m-6 shadow-2xl hover:scale-105 duration-150 ease-in rounded-md'>
-            <span className='text-color-green text-4xl font-extrabold'>| </span>
+            <span className='text-color-green md:text-4xl text-2xl font-extrabold'>
+              |{' '}
+            </span>
             Vysoká kvalita cit pre detail a estetiku
           </li>
           <li className='p-4 md:px-16 bg-gray-800/40 m-6 shadow-2xl hover:scale-105 duration-150 ease-in rounded-md'>
-            <span className='text-color-green text-4xl font-extrabold'>| </span>
+            <span className='text-color-green md:text-4xl text-2xl font-extrabold'>
+              |{' '}
+            </span>
             Možnosť vybaviť obklady Dlažby za rozumné ceny u dodávateľov
           </li>
           <li className='p-4 md:px-16 bg-gray-800/60 m-6 shadow-2xl hover:scale-105 duration-150 ease-in rounded-md'>
-            <span className='text-color-green text-4xl font-extrabold'>| </span>
+            <span className='text-color-green md:text-4xl text-2xl font-extrabold'>
+              |{' '}
+            </span>
             Možnost zabezpečiť material na realizaciu za 30-40% zľavy
           </li>
         </ul>

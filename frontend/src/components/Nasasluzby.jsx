@@ -1,5 +1,3 @@
-import TabsHero from './TabsHero'
-
 const Nasasluzby = () => {
   return (
     <div className=' font-oswald text-gray-700 mx-auto p-2  lg:mt-28 flex flex-col lg:flex-row '>
