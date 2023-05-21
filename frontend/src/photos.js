@@ -30,13 +30,13 @@ const images = [
     src: '../photos/foto/10.jpg',
   },
   {
-    src: '..photos//foto/11.jpg',
+    src: '../photos/foto/11.jpg',
   },
   {
-    src: '..photos//foto/12.jpg',
+    src: '../photos/foto/12.jpg',
   },
   {
-    src: '..photos//foto/13.jpg',
+    src: '../photos/foto/13.jpg',
   },
   {
     src: '../photos/foto/14.jpg',
@@ -208,6 +208,69 @@ const images = [
   },
   {
     src: '../photos/foto/70.jpg',
+  },
+  {
+    src: '../photos/foto/71.jpg',
+  },
+  {
+    src: '../photos/foto/72.jpg',
+  },
+  {
+    src: '../photos/foto/73.jpg',
+  },
+  {
+    src: '../photos/foto/74.jpg',
+  },
+  {
+    src: '../photos/foto/75.jpg',
+  },
+  {
+    src: '../photos/foto/76.jpg',
+  },
+  {
+    src: '../photos/foto/77.jpg',
+  },
+  {
+    src: '../photos/foto/78.jpg',
+  },
+  {
+    src: '../photos/foto/79.jpg',
+  },
+  {
+    src: '../photos/foto/80.jpg',
+  },
+  {
+    src: '../photos/foto/81.jpg',
+  },
+  {
+    src: '../photos/foto/82.jpg',
+  },
+  {
+    src: '../photos/foto/83.jpg',
+  },
+  {
+    src: '../photos/foto/84.jpg',
+  },
+  {
+    src: '../photos/foto/85.jpg',
+  },
+  {
+    src: '../photos/foto/86.jpg',
+  },
+  {
+    src: '../photos/foto/87.jpg',
+  },
+  {
+    src: '../photos/foto/88.jpg',
+  },
+  {
+    src: '../photos/foto/89.jpg',
+  },
+  {
+    src: '../photos/foto/90.jpg',
+  },
+  {
+    src: '../photos/foto/91.jpg',
   },
 ]
 

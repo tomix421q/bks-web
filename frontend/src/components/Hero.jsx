@@ -20,9 +20,9 @@ const Hero = () => {
               {/* PODTEXT */}
               <h2
                 className='
-               text-sm text-gray-300 p-2 font-robotoLight font-light lg:text-center uppercase se:text-xl md:text-4xl  lg:text-5xl w-[95%]'
+              text-gray-300 p-2 font-robotoLight font-light lg:text-center uppercase se:text-2xl md:text-4xl  lg:text-5xl w-[95%]'
               >
-                <span className='text-color-green font-medium text-2xl md:text-6xl  lg:text-5xl'>
+                <span className='text-color-green font-medium text-3xl md:text-6xl  lg:text-5xl'>
                   Obkladačske práce{' '}
                 </span>
                 aj pre tých najnáročnejších

@@ -11,13 +11,14 @@ const Photogallery = () => {
   const [data, setData] = useState({ img: '', i: 0 })
   const isFirstImage = data.i === 0
   const isLastImage = data.i === images.length - 1
+
   console.log(data)
 
   // zobrazit viac/menej
-  const [displayCount, setDisplayCount] = useState(20)
+  const [displayCount, setDisplayCount] = useState(20) //first view
 
   const handleShowMoreClick = () => {
-    setDisplayCount(displayCount + images.length)
+    setDisplayCount(displayCount + 20) //how much more photos show (all= images.length)
   }
   const handleShowLessClick = () => {
     setDisplayCount(20)

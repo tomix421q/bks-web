@@ -37,7 +37,7 @@ const Navbar = () => {
         <a href='/'>
           <div className='hidden lg:flex w-[80px]  h-[60px] bg-black/40 backdrop-blur-lg   p-2'>
             <img
-              src='../../src/assets/logo/logoWithoutBACK.png'
+              src='../../photos/logo/logoWithoutBACK.png'
               className=''
               alt=''
             />
@@ -49,7 +49,7 @@ const Navbar = () => {
             className={`logo-img w-[70px] lg:hidden absolute left-2 top-3 p-1 h-14 bg-black backdrop-blur-lg `}
           >
             <img
-              src='../../src/assets/logo/logoWithoutBACK.png'
+              src='../../photos/logo/logoWithoutBACK.png'
               className=''
               alt=''
             />
@@ -88,27 +88,27 @@ const Navbar = () => {
         <div
           className={
             nav
-              ? 'sm:hidden absolute top-0 left-0 right-0 bottom-0 flex justify-center items-center w-full h-screen bg-black text-center ease-in duration-300 flex-col text-white'
-              : 'sm:hidden absolute top-0 left-[-100%] right-0 bottom-0 flex justify-center items-center w-full h-screen bg-black text-center ease-in duration-300 flex-col '
+              ? 'lg:hidden absolute top-0 left-0 right-0 bottom-0 flex justify-center items-center w-full h-screen bg-black text-center ease-in duration-300 flex-col text-white'
+              : 'lg:hidden absolute top-0 left-[-100%] right-0 bottom-0 flex justify-center items-center w-full h-screen bg-black text-center ease-in duration-300 flex-col '
           }
         >
-          <ul>
-            <li className='p-4 text-4xl hover:text-gray-500'>
+          <ul className=''>
+            <li className='p-4 text-4xl md:text-7xl hover:text-gray-500'>
               <a href='#home' onClick={handleNav}>
                 Domov
               </a>
             </li>
-            <li className='p-4 text-4xl hover:text-gray-500'>
+            <li className='p-4 text-4xl md:text-7xl hover:text-gray-500'>
               <a href='/#gallery' onClick={handleNav}>
                 Galeria
               </a>
             </li>
-            <li className='p-4 text-4xl hover:text-gray-500'>
+            <li className='p-4 text-4xl md:text-7xl hover:text-gray-500'>
               <a href='/#about' onClick={handleNav}>
                 O nas
               </a>
             </li>
-            <li className='p-4 text-4xl hover:text-gray-500'>
+            <li className='p-4 text-4xl md:text-7xl hover:text-gray-500'>
               <a href='/#contact' onClick={handleNav}>
                 Kontakt
               </a>

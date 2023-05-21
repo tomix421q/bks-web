@@ -3,8 +3,8 @@ import { BiMap } from 'react-icons/Bi'
 
 const About = () => {
   return (
-    <div id='about' class='min-h-screen  mt-20 '>
-      <div class='text-center  max-w-[270px] mx-auto h-[300px] translate-y-24'>
+    <div id='about' class='min-h-screen  mt-20'>
+      <div class='text-center  max-w-[270px] mx-auto h-[200px] translate-y-24'>
         <h1 class='text-3xl lg:text-6xl text-white p-4  bg-gray-700/10 transition-all duration-300 ease-in-out hover:scale-105 backdrop-blur-md font-robotoLight font-thin border-2 '>
           <span className='text-color-green '>[</span>
           <span></span>O nás
@@ -12,9 +12,9 @@ const About = () => {
         </h1>
       </div>
 
-      <div className='flex bg-gray-800/40 backdrop-blur-sm p-6 hover:scale-105 duration-150 ease-linear justify-around items-center '>
+      <div className='m-2 flex flex-col md:gap-6 md:flex-row bg-gray-800/40 backdrop-blur-sm p-6 hover:scale-105 duration-150 ease-linear justify-around items-center '>
         {/* LEFT ABOUT  */}
-        <p className='text-4xl max-w-[600px] text-white font-normal font-robotoLight'>
+        <p className='text-xl text-center md:text-3xl lg:text-4xl max-w-[600px] text-white font-normal font-robotoLight'>
           Sme partia obkladačov s{' '}
           <span className='text-color-green'>dlhoročnými</span> skúsenosťami na
           trhu.
@@ -26,6 +26,7 @@ const About = () => {
           <span className='text-color-green'> cit pre detail a estetiku</span>
           ,sme priateľský, a pracujeme na profesionálnej úrovni.{' '}
         </p>
+        <span className='m-2 w-full h-1 bg-color-seablue bg-opacity-60 rounded-full md:hidden'></span>
         {/* RIGHT ABOUT  */}
         <div className='max-w-[600px]'>
           <h2 className='text-6xl text-center font-bold m-4  text-gray-100 font-robotoLight '>
@@ -33,7 +34,7 @@ const About = () => {
             <span className='text-color-green rotate-2'> posobime</span>
             <BiMap className='mx-auto  text-5xl ' />
           </h2>
-          <p className='text-4xl max-w-[600px] text-white font-thin font-robotoLight text-center'>
+          <p className='text-3xl md:text-4xl max-w-[600px] text-white font-thin font-robotoLight text-center'>
             Trnavsky kraj, Trenčiansky kraj, Banskobystricky kraj, Žilinsky kraj
             a taktiez Orave.
           </p>
@@ -49,37 +50,37 @@ const About = () => {
       </div>
       {/*  */}
       {/* PRECO U NAS ???  */}
-      <div className='mt-52'>
-        <h2 className='text-8xl text-center font-bold m-10  text-gray-100 font-robotoLight backdrop-blur-sm '>
+      <div className='lg:mt-52'>
+        <h2 className='md:text-8xl text-6xl text-center mx-auto p-2 font-bold m-10  text-gray-100 font-robotoLight backdrop-blur-sm '>
           Prečo realizáciu
           <span className='text-color-green rotate-2'> od nás?</span>
         </h2>
-        <ul className='mx-auto text-3xl max-w-fit text-white  font-robotoLight list-inside list-disc '>
-          <li className='p-4 px-16 bg-gray-800/60 m-6 shadow-2xl hover:scale-105 duration-150 ease-in rounded-md '>
+        <ul className='mx-auto md:text-3xl text-xl text-center max-w-fit text-white  font-robotoLight list-inside md:list-disc '>
+          <li className='p-4 md:px-16 bg-gray-800/60 m-6 shadow-2xl hover:scale-105 duration-150 ease-in rounded-md '>
             <span className='text-color-green text-4xl font-extrabold'>| </span>
             Viac ako 25 ročne skúsenosti s obkladačskymi prácami{' '}
           </li>
-          <li className='p-4 px-16 bg-gray-800/40 m-6 shadow-2xl hover:scale-105 duration-150 ease-in rounded-md'>
+          <li className='p-4 md:px-16 bg-gray-800/40 m-6 shadow-2xl hover:scale-105 duration-150 ease-in rounded-md'>
             <span className='text-color-green text-4xl font-extrabold'>| </span>
             Skvelý tým majstrov
           </li>
-          <li className='p-4 px-16 bg-gray-800/60 m-6 shadow-2xl hover:scale-105 duration-150 ease-in rounded-md'>
+          <li className='p-4 md:px-16 bg-gray-800/60 m-6 shadow-2xl hover:scale-105 duration-150 ease-in rounded-md'>
             <span className='text-color-green text-4xl font-extrabold'>| </span>
             Skvelý a ľudský prístup k majiteľom
           </li>
-          <li className='p-4 px-16 bg-gray-800/40 m-6 shadow-2xl hover:scale-105 duration-150 ease-in rounded-md'>
+          <li className='p-4 md:px-16 bg-gray-800/40 m-6 shadow-2xl hover:scale-105 duration-150 ease-in rounded-md'>
             <span className='text-color-green text-4xl font-extrabold'>| </span>
             Kvalita za dostupnú cenu pre všetkých
           </li>
-          <li className='p-4 px-16 bg-gray-800/60 m-6 shadow-2xl hover:scale-105 duration-150 ease-in rounded-md'>
+          <li className='p-4 md:px-16 bg-gray-800/60 m-6 shadow-2xl hover:scale-105 duration-150 ease-in rounded-md'>
             <span className='text-color-green text-4xl font-extrabold'>| </span>
             Vysoká kvalita cit pre detail a estetiku
           </li>
-          <li className='p-4 px-16 bg-gray-800/40 m-6 shadow-2xl hover:scale-105 duration-150 ease-in rounded-md'>
+          <li className='p-4 md:px-16 bg-gray-800/40 m-6 shadow-2xl hover:scale-105 duration-150 ease-in rounded-md'>
             <span className='text-color-green text-4xl font-extrabold'>| </span>
             Možnosť vybaviť obklady Dlažby za rozumné ceny u dodávateľov
           </li>
-          <li className='p-4 px-16 bg-gray-800/60 m-6 shadow-2xl hover:scale-105 duration-150 ease-in rounded-md'>
+          <li className='p-4 md:px-16 bg-gray-800/60 m-6 shadow-2xl hover:scale-105 duration-150 ease-in rounded-md'>
             <span className='text-color-green text-4xl font-extrabold'>| </span>
             Možnost zabezpečiť material na realizaciu za 30-40% zľavy
           </li>

@@ -2,9 +2,9 @@ import TabsHero from './TabsHero'
 
 const Nasasluzby = () => {
   return (
-    <div className=' font-oswald text-gray-700 mx-auto p-2  lg:mt-28 flex flex-col lg:flex-row justify-around'>
+    <div className=' font-oswald text-gray-700 mx-auto p-2  lg:mt-28 flex flex-col lg:flex-row '>
       {/* LEFT  */}
-      <div className=''>
+      <div className='mx-auto'>
         <div className='text-center w-fit mx-auto '>
           <h1 className='text-3xl lg:text-6xl  mx-auto text-white p-4 m-2  bg-gray-700/10 transition-all duration-300 ease-in-out hover:scale-105 backdrop-blur-sm font-robotoLight font-thin border-2'>
             {/* <span className='text-color-green text-4xl font-normal'>
@@ -16,7 +16,7 @@ const Nasasluzby = () => {
           </h1>
         </div>
 
-        <ul className=' text-gray-200  text-lg text-center  grid grid-cols-1    font-robotoLight font-normal  md:text-2xl md:mt-4 lg:text-2xl   plus:text-2xl '>
+        <ul className=' text-gray-200  text-lg text-center  grid grid-cols-1    font-robotoLight font-normal  md:text-2xl md:mt-4 lg:text-2xl   plus:text-2xl max-w-[500px]'>
           <li className='  bg-black/20 border-b-2 border-color-green p-2 m-1 backdrop-blur-sm'>
             Veľkoformátové obkladanie do rozmeru 160x320cm
           </li>
@@ -59,8 +59,8 @@ const Nasasluzby = () => {
         </ul>
       </div>
       {/* RIGHT  */}
-      <div className='w-[40%] text-white'>
-        <h2 className='text-3xl text-center lg:text-6xl  mx-auto text-white p-4 m-2  bg-gray-700/10 transition-all duration-300 ease-in-out hover:scale-105 backdrop-blur-sm font-robotoLight font-thin border-2'>
+      <div className=' text-white mx-auto mt-24 lg:mt-0'>
+        <h2 className='w-[90%] text-3xl text-center lg:text-6xl  mx-auto text-white p-4 m-2  bg-gray-700/10 transition-all duration-300 ease-in-out hover:scale-105 backdrop-blur-sm font-robotoLight font-thin border-2'>
           {/* <span className='text-color-green text-4xl font-normal'>
                     |
                   </span> */}
@@ -68,7 +68,7 @@ const Nasasluzby = () => {
           Taktiez vieme
           <span className='text-color-seablue'>]</span>
         </h2>
-        <ul className='text-gray-200  text-lg text-center  grid grid-cols-1    font-robotoLight font-normal  md:text-2xl md:mt-4 lg:text-2xl   plus:text-2xl'>
+        <ul className='text-gray-200 text-lg text-center  grid grid-cols-1    font-robotoLight font-normal  md:text-2xl md:mt-4 lg:text-2xl   plus:text-2xl max-w-[500px]'>
           <li className='bg-black/20 border-b-2 border-color-seablue p-2 m-1 backdrop-blur-sm'>
             Zabezpezit dovoz materiálu{' '}
           </li>
