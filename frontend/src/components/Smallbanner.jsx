@@ -53,7 +53,10 @@ const Smallbanner = () => {
     )
   }
   return (
-    <div className='md:mx-auto lg:w-[50%] shadow-md shadow-black hidden lg:block transition-all ease-linear duration-1000 '>
+    <div
+      className='md:mx-auto lg:w-[50%] shadow-md shadow-black hidden lg:block transition-all ease-linear duration-1000 '
+      data-aos='fade-in'
+    >
       <MyImageGallery />
     </div>
   )

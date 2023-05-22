@@ -7,7 +7,11 @@ const Hero = () => {
     <>
       {/* Overlay  */}
 
-      <div id='home' className='flex justify-center min-h-auto '>
+      <div
+        id='home'
+        className='flex justify-center min-h-auto '
+        data-aos='fade-in'
+      >
         <div className='lg:h-auto flex flex-col md-flex-row z-30 '>
           {/* case without banner */}
           <div className='   p-2 flex flex-col mt-20 lg:flex-row'>
@@ -55,6 +59,7 @@ const Hero = () => {
                 </a>
               </div>
             </div>
+
             <Smallbanner />
           </div>
           {/* PONUKA */}
