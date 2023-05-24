@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { FaPlus, FaMinus } from 'react-icons/fa'
 
 const Contact = () => {
-  const [isOpen, setIsOpen] = useState(true)
+  const [isOpen, setIsOpen] = useState(false)
 
   const handleToggle = () => {
     setIsOpen(!isOpen)
