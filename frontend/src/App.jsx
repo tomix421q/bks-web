@@ -1,12 +1,4 @@
 import React, { useState, useEffect } from 'react'
-// LOADER
-import { SyncLoader } from 'react-spinners'
-//
-//SCROLL ANIMATION
-import AOS from 'aos'
-import 'aos/dist/aos.css'
-//
-
 import About from './components/About'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
@@ -15,6 +7,13 @@ import Nasasluzby from './components/Nasasluzby'
 import Navbar from './components/Navbar'
 import Photogallery from './components/Photogallery'
 import './index.css'
+// LOADER
+import { SyncLoader } from 'react-spinners'
+//
+//SCROLL ANIMATION
+import AOS from 'aos'
+import 'aos/dist/aos.css'
+//
 
 function App() {
   // ONLOAD
@@ -53,9 +52,9 @@ function App() {
             <div data-aos='fade-in'>
               <Contact />
             </div>
-            <div data-aos='fade-in'>
-              <Photogallery />
-            </div>
+
+            <Photogallery />
+
             <Footer />
           </div>
           {/*  */}

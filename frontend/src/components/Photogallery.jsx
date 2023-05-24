@@ -137,7 +137,7 @@ const Photogallery = () => {
             </ResponsiveMasonry>
           </LazyLoad>
         </div>
-        <div className='flex flex-col max-w-[360px] mx-auto font-robotoLight font-bold  py-4 text-lg md:text-3xl'>
+        <div className='flex flex-col max-w-[360px] mx-auto font-robotoLight font-bold  py-4 text-lg md:text-2xl'>
           {displayCount < images.length && (
             <button
               onClick={handleShowMoreClick}
