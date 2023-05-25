@@ -14,29 +14,39 @@ const Hero = () => {
       >
         <div className='lg:h-auto flex flex-col md-flex-row z-30 '>
           {/* case without banner */}
-          <div className='   p-2 flex flex-col mt-20 lg:flex-row'>
+          <div className=' flex flex-col mt-20 lg:flex-row'>
             {/* BKS H1 */}
             <div className=' flex flex-col backdrop-blur-sm max-w-[800px] text-center font-oswald  bg-transparent '>
-              <h1 className='font-pathway  text-8xl text-gray-200  rounded-md  md:text-9xl lg:text-[20rem]  plus:text-8xl'>
+              <h1 className=' font-pathway  text-8xl text-gray-200  rounded-md  md:text-9xl lg:text-[20rem]  plus:text-8xl'>
                 BKS<span className='text-color-green'>.</span>
               </h1>
-
               {/* PODTEXT */}
-              <h2
-                className='
-              text-gray-300 p-2 font-robotoLight font-normal lg:text-center uppercase text-xl md:text-4xl  lg:text-5xl  mx-auto'
-              >
-                <span className='text-color-green font-bold text-3xl md:text-6xl  lg:text-5xl'>
+              <div className=' uppercase   mx-auto font-robotoLight'>
+                <h2 className='text-color-green font-bold text-3xl md:text-6xl  lg:text-6xl p-2 '>
                   Obkladačske práce{' '}
-                </span>
-                aj pre tých najnáročnejších
-              </h2>
+                </h2>
+
+                <h2
+                  className='text-gray-300 p-1  font-normal 
+text-2xl md:text-4xl  lg:text-6xl'
+                >
+                  {' '}
+                  aj pre tých
+                </h2>
+                <h2
+                  className='text-gray-300 p-1  font-normal 
+text-2xl md:text-4xl  lg:text-6xl'
+                >
+                  najnáročnejších
+                </h2>
+              </div>
+
               <h2
                 className='
-               text-lg text-gray-300   font-robotoLight font-normal lg:text-center uppercase md:text-4xl  lg:text-5xl w-[95%]'
+               text-lg text-gray-300   font-robotoLight font-normal lg:text-center uppercase md:text-4xl  lg:text-4xl mt-[20px]'
               >
                 Naš zákazník náš
-                <span className='text-color-green font-bold text-2xl md:text-6xl  lg:text-6xl'>
+                <span className='text-color-green font-bold text-2xl md:text-6xl  lg:text-5xl'>
                   {' '}
                   Pán
                 </span>

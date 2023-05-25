@@ -137,14 +137,14 @@ const Photogallery = () => {
             </ResponsiveMasonry>
           </LazyLoad>
         </div>
-        <div className='flex flex-col max-w-[360px] mx-auto font-robotoLight font-bold  py-4 text-lg md:text-2xl'>
+        <div className='flex flex-col max-w-[350px] mx-auto font-robotoLight font-bold  py-4 text-2xl md:text-2xl'>
           {displayCount < images.length && (
             <button
               onClick={handleShowMoreClick}
-              className='bg-color-green m-2  hover:bg-color-seablue hover:scale-110 duration-300 transition-all text-gray-900 shadow-2xl py-2 px-4 rounded-md flex uppercase hover:text-gray-200 items-center justify-center'
+              className='bg-color-green m-2  hover:bg-color-seablue hover:scale-110 duration-300 transition-all text-gray-900 py-2 px-4 rounded-md flex uppercase hover:text-gray-200 items-center justify-center'
             >
               Viac fotiek
-              <SlArrowDown size={40} className='ml-5' />
+              <SlArrowDown size={30} className='ml-4' />
             </button>
           )}
           {displayCount > images.length && (
@@ -152,7 +152,7 @@ const Photogallery = () => {
               onClick={handleShowLessClick}
               className='bg-color-green m-2  hover:bg-color-seablue hover:scale-110 duration-300 transition-all text-gray-900 shadow-2xl py-2 px-4 rounded-md flex uppercase hover:text-gray-200 items-center justify-center'
             >
-              <SlArrowUp size={40} className='mr-5' />
+              <SlArrowUp size={30} className='mr-4' />
               Zobrazit menej
             </button>
           )}

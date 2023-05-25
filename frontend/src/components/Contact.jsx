@@ -1,6 +1,12 @@
 import React, { useState } from 'react'
 import { FaPlus, FaMinus } from 'react-icons/fa'
-import { AiOutlineSend } from 'react-icons/ai'
+import {
+  AiOutlineSend,
+  AiOutlineMail,
+  AiOutlineMobile,
+  AiFillFacebook,
+  AiOutlineInstagram,
+} from 'react-icons/ai'
 const Contact = () => {
   const [isOpen, setIsOpen] = useState(false)
 
@@ -109,12 +115,15 @@ const Contact = () => {
       {/* END TOGGLE */}
 
       {/* FORMULAR + CONTACT INFO */}
-      <div className='mt-[100px] flex flex-col lg:flex-row mx-auto  justify-around'>
+      <div className='mt-[70px] flex flex-col lg:flex-row mx-auto justify-around'>
         <form
           onSubmit={handleSubmit}
           action='https://formspree.io/f/xbjeekgb'
-          className='flex flex-col  border '
+          className='flex flex-col bg-black/40 max-w-[600px] backdrop-blur-md  p-6  hover:scale-105 duration-500'
         >
+          <h2 className='text-3xl mx-auto  p-2'>
+            Kontaktujte nas, ozvame sa vam
+          </h2>
           <div className='mx-auto relative px-2'>
             {submitted === true && (
               <div className='absolute bg-gray-800 rounded-lg backdrop-blur-lg top-0 bottom-0 left-0 right-0'>
@@ -133,7 +142,7 @@ const Contact = () => {
               value={email}
               onChange={(e) => setEmail(e.target.value)}
               required
-              placeholder='Zadaj Email'
+              placeholder='Zadaj svoj Email'
               className='p-4 text-black w-full my-4'
             />
 
@@ -143,7 +152,7 @@ const Contact = () => {
               value={name}
               onChange={(e) => setName(e.target.value)}
               required
-              placeholder='Zadaj meno'
+              placeholder='Zadaj svoje meno'
               className='p-4 text-black  w-full my-4'
             />
 
@@ -158,13 +167,68 @@ const Contact = () => {
           </div>
           <button
             type='submit'
-            className='bg-color-green m-2 hover:bg-color-seablue hover:scale-110 hover:rotate-2 duration-300 transition-all text-gray-900 text-3xl shadow-2xl py-2 px-10 rounded-md flex uppercase hover:text-gray-200 items-center justify-center max-w-[300px] mx-auto'
+            className='bg-color-green  hover:bg-color-seablue hover:scale-110 hover:rotate-2 duration-300 transition-all text-gray-900 text-2xl shadow-2xl py-2 px-10 rounded-md flex uppercase hover:text-gray-200 items-center justify-center max-w-[300px] mx-auto'
           >
-            Odoslat <AiOutlineSend className='m-2' size={35} />
+            Odoslat <AiOutlineSend className='inline ml-3' size={30} />
           </button>
         </form>
-        <div className='border max-w-[600px] w-full mt-[50px] lg:mt-0 p-2'>
-          <h2>Contact info</h2>
+        {/* KONTAKT */}
+        <div className='max-w-[600px] p-4 flex flex-col mt-[50px] w-full lg:mt-0  bg-black/40 backdrop-blur-md hover:scale-105 duration-500 '>
+          {/* email */}
+          <div className='flex justify-center flex-col text-center m-2'>
+            <a
+              href='mailto:bksobkladacskeprace@gmail.com'
+              className='text-color-green font-bold text-2xl'
+            >
+              Email:
+            </a>
+
+            <p
+              href='mailto:bksobkladacskeprace@gmail.com'
+              className=' text-xl md:text-2xl'
+            >
+              <AiOutlineMail className='inline mb-1 text-color-green' />{' '}
+              bksobkladacskeprace@gmail.com
+            </p>
+          </div>
+          {/* tel */}
+          <div className='flex justify-center flex-col text-center m-2'>
+            <a
+              href='tel:+421 910 387 825'
+              className='text-color-green font-bold text-2xl'
+            >
+              Tel:
+            </a>
+
+            <p
+              href='tel:+421 910 387 825'
+              className='text-xl md:text-2xl mx-auto p-2'
+            >
+              <AiOutlineMobile className='inline mb-1 text-color-green' />
+              +421 910 387 825
+            </p>
+          </div>
+          {/* socialne siete  */}
+
+          <span className='w-[70%] h-[1px] bg-color-green mx-auto my-8'></span>
+          <h2 className='text-3xl mx-auto'>Socialne siete</h2>
+          <div className='flex justify-around p-6  gap-10 mx-auto'>
+            <a
+              href='https://www.facebook.com/profile.php?id=100064028439648'
+              target='_blank'
+            >
+              <AiFillFacebook
+                size={80}
+                className='hover:scale-110 duration-500'
+              />
+            </a>
+            <a href='' target='_blank'>
+              <AiOutlineInstagram
+                size={80}
+                className='hover:scale-110 duration-500'
+              />
+            </a>
+          </div>
         </div>
       </div>
       {/*  */}

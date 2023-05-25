@@ -44,16 +44,16 @@ function App() {
           <div className='mx-auto max-w-[1350px] cursor-default'>
             <Hero />
             <div data-aos='fade-in'>
-              <Nasasluzby />
-            </div>
-            <div data-aos='fade-in'>
               <About />
             </div>
+
+            <div data-aos='fade-in'>
+              <Nasasluzby />
+            </div>
+            <Photogallery />
             <div data-aos='fade-in'>
               <Contact />
             </div>
-
-            <Photogallery />
 
             <Footer />
           </div>

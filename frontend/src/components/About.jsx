@@ -5,8 +5,8 @@ import React from 'react'
 
 const About = () => {
   return (
-    <div id='about' class='min-h-screen  mt-20'>
-      <div class='text-center  max-w-[270px] mx-auto h-[200px] translate-y-24'>
+    <div id='about' class='min-h-screen'>
+      <div class='text-center  max-w-[270px] mx-auto mt-[50px] lg:mt-[200px]'>
         <h1 class='text-3xl lg:text-6xl text-white p-4  bg-gray-700/10 transition-all duration-300 ease-in-out hover:scale-105 backdrop-blur-md font-robotoLight font-thin border-2 '>
           <span className='text-color-green '>[</span>
           <span></span>O nás
@@ -14,7 +14,7 @@ const About = () => {
         </h1>
       </div>
 
-      <div className='m-2 flex flex-col md:gap-6 md:flex-row bg-gray-800/40 backdrop-blur-sm p-6 hover:scale-105 duration-150 ease-linear justify-around items-center '>
+      <div className='m-8 flex flex-col md:gap-6 md:flex-row bg-gray-800/40 backdrop-blur-sm p-2 hover:scale-105 duration-150 ease-linear justify-around items-center '>
         {/* LEFT ABOUT  */}
 
         <p className='text-xl text-center md:text-3xl lg:text-4xl max-w-[600px] text-white font-normal font-robotoLight'>
