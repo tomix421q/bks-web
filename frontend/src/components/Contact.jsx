@@ -163,7 +163,7 @@ const Contact = () => {
             Odoslat <AiOutlineSend className='m-2' size={35} />
           </button>
         </form>
-        <div className='border max-w-[600px] w-full mt-[50px] lg:mt-0'>
+        <div className='border max-w-[600px] w-full mt-[50px] lg:mt-0 p-2'>
           <h2>Contact info</h2>
         </div>
       </div>
