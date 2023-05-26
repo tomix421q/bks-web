@@ -49,10 +49,6 @@ html {
   background-image: url('../photos/logo/logoWithoutBACK.png');
 }
 
-.tabGlobal:hover {
-  transform: scale(200%);
-}
-
 .lazy-loaded-content {
   opacity: 0;
   transition: opacity 0.5s ease-in-out;
@@ -60,4 +56,38 @@ html {
 
 .lazy-loaded-content.lazy-load-loaded {
   opacity: 1;
+}
+
+/* SCROLL TAB  */
+/* Štýl pre scrollbar */
+::-webkit-scrollbar {
+  width: 8px; /* Šírka scrollbaru */
+}
+
+/* Farba thumbu (palec) */
+::-webkit-scrollbar-thumb {
+  background-color: #888; /* Farba thumbu */
+  border-radius: 8px; /* Zakrivenie okrajov thumbu */
+}
+
+/* Farba tracku (stopa) */
+::-webkit-scrollbar-track {
+  background-color: #f2f2f2; /* Farba tracku */
+}
+
+/* Farba thumbu a tracku pri hoveri */
+::-webkit-scrollbar-thumb:hover,
+::-webkit-scrollbar-thumb:active {
+  background-color: #555; /* Farba thumbu pri hoveri */
+}
+
+/* Skrytie scrollbaru na x-ovej osi */
+::-webkit-scrollbar-horizontal {
+  display: none;
+}
+
+/* Upravíme šírku a farbu thumbu na y-ovej osi */
+::-webkit-scrollbar-thumb:vertical {
+  width: 8px; /* Šírka thumbu na y-ovej osi */
+  background-color: #172828; /* Farba thumbu na y-ovej osi */
 }

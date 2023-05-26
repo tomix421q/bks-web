@@ -62,7 +62,7 @@ const Contact = () => {
       </div>
 
       {/* TOGGLE */}
-      <div className='mx-auto min-w-[350px] md:max-w-[700px] lg:max-w-[1000px]'>
+      <div className='mx-auto min-w-[320px] md:max-w-[700px] lg:max-w-[1000px]'>
         <div className='flex items-center justify-between mx-2 mt-10 md:mx-auto bg-gray-600/40 backdrop-blur-md p-2 rounded-md'>
           <h4 className='text-2xl md:text-4xl text-md font-bold text-gray-100 font-robotoLight  '>
             Aký je postup keď sa rozhodnete <br />

@@ -50,13 +50,12 @@ function App() {
             <div data-aos='fade-in'>
               <Nasasluzby />
             </div>
-            <Photogallery />
             <div data-aos='fade-in'>
               <Contact />
             </div>
-
-            <Footer />
+            <Photogallery />
           </div>
+          <Footer />
           {/*  */}
         </div>
       )}
