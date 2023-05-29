@@ -40,7 +40,7 @@ const About = () => {
           </h2>
           <p className='text-3xl md:text-4xl max-w-[600px] text-white font-thin font-robotoLight text-center'>
             Trnavsky kraj, Trenčiansky kraj, Banskobystricky kraj, Žilinsky kraj
-            a taktiez Orave.
+            a taktiez na Orave.
           </p>
 
           <a

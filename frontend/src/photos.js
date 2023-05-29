@@ -272,6 +272,18 @@ const images = [
   {
     src: '../photos/foto/91.jpg',
   },
+  {
+    src: '../photos/foto/92.jpg',
+  },
+  {
+    src: '../photos/foto/93.jpg',
+  },
+  {
+    src: '../photos/foto/94.jpg',
+  },
+  {
+    src: '../photos/foto/95.jpg',
+  },
 ]
 
 export default images

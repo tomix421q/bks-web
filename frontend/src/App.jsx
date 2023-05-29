@@ -19,13 +19,30 @@ function App() {
   // ONLOAD
   const [loading, setLoading] = useState(true)
   useEffect(() => {
-    window.onload = () => {
+    const handleLoad = () => {
       setLoading(false)
+    }
+
+    window.addEventListener('load', handleLoad)
+
+    return () => {
+      window.removeEventListener('load', handleLoad)
     }
   }, [])
 
   useEffect(() => {
     AOS.init({ duration: 2000 })
+
+    // Znovu inicializovať AOS po načítaní obsahu z react-router
+    const handleContentLoad = () => {
+      AOS.refresh()
+    }
+
+    window.addEventListener('DOMContentLoaded', handleContentLoad)
+
+    return () => {
+      window.removeEventListener('DOMContentLoaded', handleContentLoad)
+    }
   }, [])
 
   return (

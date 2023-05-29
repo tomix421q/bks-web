@@ -46,13 +46,13 @@ const Footer = () => {
                 {' '}
                 <AiFillFacebook
                   size={50}
-                  className='hover:scale-105 duration-300 m-4'
+                  className='hover:scale-105 duration-300 m-2'
                 />
               </a>
               <a href='www.google.com' target='_blank'>
                 <AiOutlineInstagram
                   size={50}
-                  className='hover:scale-110 duration-300 m-4'
+                  className='hover:scale-110 duration-300 m-2'
                 />
               </a>
             </div>
