@@ -119,7 +119,7 @@ const Contact = () => {
         <form
           onSubmit={handleSubmit}
           action='https://formspree.io/f/xbjeekgb'
-          className='flex flex-col bg-black/40 max-w-[600px] backdrop-blur-md  p-6  hover:scale-105 duration-500'
+          className='flex flex-col bg-black/40 max-w-[600px] backdrop-blur-md  p-6  hover:scale-105 duration-500 mx-auto'
         >
           <h2 className='text-3xl mx-auto  p-2'>
             Kontaktujte nas, ozvame sa vam
@@ -173,7 +173,7 @@ const Contact = () => {
           </button>
         </form>
         {/* KONTAKT */}
-        <div className='max-w-[600px] p-4 flex flex-col mt-[50px] w-full lg:mt-0  bg-black/40 backdrop-blur-md hover:scale-105 duration-500 '>
+        <div className='max-w-[600px] p-4 flex flex-col mt-[50px] w-full lg:mt-0  bg-black/40 backdrop-blur-md hover:scale-105 duration-500 mx-auto'>
           {/* email */}
           <div className='flex justify-center flex-col text-center m-2'>
             <a

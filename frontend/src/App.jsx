@@ -6,9 +6,8 @@ import Hero from './components/Hero'
 import Nasasluzby from './components/Nasasluzby'
 import Navbar from './components/Navbar'
 import Photogallery from './components/Photogallery'
+import ReactLoading from 'react-loading'
 import './index.css'
-// LOADER
-import { SyncLoader } from 'react-spinners'
 //
 //SCROLL ANIMATION
 import AOS from 'aos'
@@ -49,7 +48,13 @@ function App() {
     <>
       {loading ? (
         <div className='spinner-container h-screen w-screen bg-gray-900 flex justify-center items-center'>
-          <SyncLoader color='#36d7b7' loading={loading} size={30} />
+          <ReactLoading
+            type='spin'
+            color='#36d7b7'
+            height='50px'
+            width='50px'
+          />{' '}
+          {/* ReactLoading komponent */}
         </div>
       ) : (
         <div>

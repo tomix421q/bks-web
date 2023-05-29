@@ -30,7 +30,7 @@ const About = () => {
           ,sme priateľský, a pracujeme na profesionálnej úrovni.{' '}
         </p>
 
-        <span className='m-2 w-full h-1 bg-color-seablue bg-opacity-60 rounded-full md:hidden'></span>
+        <span className='m-2 h-1 bg-color-green w-[80%] bg-opacity-60 rounded-full md:hidden'></span>
         {/* RIGHT ABOUT  */}
         <div className='max-w-[600px]'>
           <h2 className='text-6xl text-center font-bold m-4  text-gray-100 font-robotoLight '>

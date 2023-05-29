@@ -9,26 +9,26 @@ import {
 const Footer = () => {
   return (
     <div className=' bg-black/70 w-full h-auto  text-white'>
-      <div className='justify-center flex flex-col md:flex-row lg:gap-48 md:gap-12 pt-10'>
+      <div className='justify-center flex flex-col md:flex-row lg:gap-48 md:gap-12 pt-4'>
         <div className='flex  flex-row justify-around'>
           {/*  */}
           {/* Menu */}
           <section className='text-center flex flex-col '>
             <h4 className='underline m-2 p-1 underline-offset-4'>Menu</h4>
             <ul>
-              <li className='hover:underline duration-300'>
+              <li className='hover:underline duration-300 m-1'>
                 <a href='#home'>Domov</a>
               </li>
-              <li className='hover:underline duration-300'>
+              <li className='hover:underline duration-300 m-1'>
                 <a href='#about'>O nas</a>
               </li>
-              <li className='hover:underline duration-300'>
+              <li className='hover:underline duration-300 m-1'>
                 <a href='#ourServices'>Nase sluzby</a>
               </li>
-              <li className='hover:underline duration-300'>
+              <li className='hover:underline duration-300 m-1'>
                 <a href='#gallery'>Galleria</a>
               </li>
-              <li className='hover:underline duration-300'>
+              <li className='hover:underline duration-300 m-1'>
                 <a href='#contact'>Kontakt</a>
               </li>
             </ul>
@@ -78,7 +78,7 @@ const Footer = () => {
         </section>
         <span className='md:hidden w-[70%] h-[1px] bg-color-green mx-auto my-8'></span>
       </div>
-      <p className='text-center text-gray-500 p-2'>
+      <p className='text-center text-gray-600 p-2'>
         <a href='mailto:zilka.tomas421@gmail.com'> © 2023 Tomas Zilka</a>
       </p>
     </div>
