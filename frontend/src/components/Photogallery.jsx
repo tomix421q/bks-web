@@ -113,7 +113,7 @@ const Photogallery = () => {
           </div>
         )}
 
-        <div className='p-4 lg:p-[40px] bg-black/50 '>
+        <div className='p-4 lg:p-[40px] bg-black/40 backdrop-blur-md '>
           <LazyLoad offset={2000}>
             <ResponsiveMasonry
               columnsCountBreakPoints={{ 350: 2, 750: 2, 900: 4 }}

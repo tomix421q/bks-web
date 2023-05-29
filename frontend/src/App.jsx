@@ -16,16 +16,16 @@ import 'aos/dist/aos.css'
 
 function App() {
   // ONLOAD
-  const [loading, setLoading] = useState(true)
+  const [loading, setLoading] = useState(false)
   useEffect(() => {
     const handleLoad = () => {
       setLoading(false)
     }
 
-    window.addEventListener('load', handleLoad)
+    document.getElementById('home').addEventListener('load', handleLoad)
 
     return () => {
-      window.removeEventListener('load', handleLoad)
+      document.getElementById('home').removeEventListener('load', handleLoad)
     }
   }, [])
 
@@ -59,11 +59,15 @@ function App() {
       ) : (
         <div>
           <Navbar />
-
+          <img
+            src='../photos/wallpaper/mobile3.webp'
+            className='herohero'
+            alt=''
+          />
           {/*  */}
           {/* MAIN CONTENT  */}
           {/*  */}
-          <div className='mx-auto max-w-[1350px] cursor-default'>
+          <div className='mx-auto max-w-[1350px] cursor-default '>
             <Hero />
             <div data-aos='fade-in'>
               <About />
