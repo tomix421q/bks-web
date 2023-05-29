@@ -1,6 +1,6 @@
 const images = [
   {
-    src: '../photos/foto/1.jpg',
+    src: '../photos/foto/1 .webp',
   },
   {
     src: '../photos/foto/2.jpg',
