@@ -28,9 +28,10 @@ html {
   .herohero {
     position: fixed;
 
-    /* height: fit-content; */
+    height: 100vh;
     z-index: -99;
-    margin-top: 60px;
+    /* margin-top: 60px; */
+    /* bottom: 0; */
   }
 }
 

@@ -61,7 +61,7 @@ function App() {
           <Navbar />
           <img
             src='../photos/wallpaper/mobile3.webp'
-            className='herohero'
+            className='herohero md:hidden'
             alt=''
           />
           {/*  */}

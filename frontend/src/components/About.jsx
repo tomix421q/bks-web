@@ -6,8 +6,8 @@ import React from 'react'
 const About = () => {
   return (
     <div id='about' class='min-h-screen'>
-      <div class='text-center  max-w-[270px] mx-auto mt-[50px] lg:mt-[200px]'>
-        <h1 class='text-3xl lg:text-6xl text-white p-4  bg-gray-700/10 transition-all duration-300 ease-in-out hover:scale-105 backdrop-blur-md font-robotoLight font-thin border-2 '>
+      <div class='text-center  max-w-[270px] mx-auto mt-[50px] lg:mt-[200px] grid'>
+        <h1 class='text-3xl lg:text-6xl text-white p-4  bg-gray-700/10 transition-all duration-300 ease-in-out hover:scale-105 backdrop-blur-md font-robotoLight font-thin border-2 mt-20'>
           <span className='text-color-green '>[</span>
           <span></span>O nás
           <span className='text-color-green'>]</span>

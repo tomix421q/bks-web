@@ -62,13 +62,17 @@ const Navbar = () => {
             <a href='#home'>Domov</a>
           </li>
           <li className='p-4'>
-            <a href='/#gallery'>Nasa praca</a>
-          </li>
-          <li className='p-4'>
             <a href='/#about'>O nas</a>
           </li>
           <li className='p-4'>
+            <a href='/#ourServices'>Nase sluzby</a>
+          </li>
+
+          <li className='p-4'>
             <a href='/#contact'>Kontakt</a>
+          </li>
+          <li className='p-4'>
+            <a href='/#gallery'>Galleria</a>
           </li>
         </ul>
         {/*  */}
@@ -98,19 +102,25 @@ const Navbar = () => {
                 Domov
               </a>
             </li>
-            <li className='p-4 text-4xl md:text-7xl hover:text-gray-500'>
-              <a href='/#gallery' onClick={handleNav}>
-                Galeria
-              </a>
-            </li>
+
             <li className='p-4 text-4xl md:text-7xl hover:text-gray-500'>
               <a href='/#about' onClick={handleNav}>
                 O nas
               </a>
             </li>
             <li className='p-4 text-4xl md:text-7xl hover:text-gray-500'>
+              <a href='/#ourServices' onClick={handleNav}>
+                Nase sluzby
+              </a>
+            </li>
+            <li className='p-4 text-4xl md:text-7xl hover:text-gray-500'>
               <a href='/#contact' onClick={handleNav}>
                 Kontakt
+              </a>
+            </li>
+            <li className='p-4 text-4xl md:text-7xl hover:text-gray-500'>
+              <a href='/#gallery' onClick={handleNav}>
+                Galeria
               </a>
             </li>
           </ul>

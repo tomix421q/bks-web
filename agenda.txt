@@ -9,7 +9,5 @@ Ponúkame vám najmodernejšie riešenia obkladov a dlažieb s vyše 25 ročným
 
 
 referencie
-pridat buttony na ostatne componenty
-zarovnat id scroll na presny nadpis componentu
 spravit slider na obrazky
 gramatika

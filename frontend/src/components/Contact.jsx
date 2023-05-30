@@ -52,9 +52,9 @@ const Contact = () => {
   }
 
   return (
-    <div id='contact' class='min-h-screen mt-20 text-gray-100'>
-      <div class='text-center mt-20  max-w-[270px] mx-auto '>
-        <h1 class='text-3xl lg:text-6xl text-white p-4  bg-gray-700/10 transition-all duration-300 ease-in-out hover:scale-105 backdrop-blur-md font-robotoLight font-thin border-2'>
+    <div id='contact' class=' text-gray-100 min-h-screen'>
+      <div class='text-center max-w-[270px] mx-auto mt-20 flex '>
+        <h1 class='text-3xl lg:text-6xl text-white p-4  bg-gray-700/10 transition-all duration-300 ease-in-out hover:scale-105 backdrop-blur-md font-robotoLight font-thin border-2 mt-20 mx-auto'>
           <span class='text-color-green '>[</span>
           <span></span>Kontakt
           <span class='text-color-green'>]</span>
@@ -64,7 +64,7 @@ const Contact = () => {
       {/* TOGGLE */}
       <div className='mx-auto min-w-[320px] md:max-w-[700px] lg:max-w-[1000px]'>
         <div className='flex items-center justify-between mx-2 mt-10 md:mx-auto bg-gray-600/40 backdrop-blur-md p-2 rounded-md'>
-          <h4 className='text-2xl md:text-4xl text-md font-bold text-gray-100 font-robotoLight  '>
+          <h4 className='text-2xl md:text-4xl text-md font-bold text-gray-100 font-robotoLight '>
             Aký je postup keď sa rozhodnete <br />
             <span className='text-color-green rotate-2'>
               pre realizáciu od nás?
