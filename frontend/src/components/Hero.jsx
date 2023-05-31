@@ -23,7 +23,7 @@ const Hero = () => {
               {/* PODTEXT */}
               <div className=' uppercase   mx-auto font-robotoLight'>
                 <h2 className='text-color-green font-bold text-3xl md:text-6xl  lg:text-6xl p-2 '>
-                  Obkladačske práce{' '}
+                  Obkladačské práce{' '}
                 </h2>
 
                 <h2
@@ -58,7 +58,7 @@ text-2xl md:text-4xl  lg:text-6xl'
                   className=' bg-color-green m-2  hover:bg-color-seablue hover:scale-110 hover:rotate-2 duration-300 transition-all text-gray-900 shadow-2xl py-2 px-8 rounded-md flex uppercase hover:text-gray-200 items-center justify-center  '
                 >
                   <FaHammer size={25} className='mr-2' />
-                  Realizacie
+                  Realizácie
                 </a>
                 <a
                   href='#contact'

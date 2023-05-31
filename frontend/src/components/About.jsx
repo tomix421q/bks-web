@@ -26,8 +26,8 @@ const About = () => {
           veľkoformátovými dlažbami do rozmerov 160x320cm.
           <br />
           Máme
-          <span className='text-color-green'> cit pre detail a estetiku</span>
-          ,sme priateľský, a pracujeme na profesionálnej úrovni.{' '}
+          <span className='text-color-green'> cit pre detail a estetiku</span>,
+          sme priateľský, a pracujeme na profesionálnej úrovni.{' '}
         </p>
 
         <span className='m-2 h-1 bg-color-green w-[80%] bg-opacity-60 rounded-full md:hidden'></span>
@@ -35,12 +35,12 @@ const About = () => {
         <div className='max-w-[600px]'>
           <h2 className='text-6xl text-center font-bold m-4  text-gray-100 font-robotoLight '>
             Miesta kde
-            <span className='text-color-green rotate-2'> posobime</span>
+            <span className='text-color-green rotate-2'> pôsobíme</span>
             <BiMap className='mx-auto  text-5xl ' />
           </h2>
           <p className='text-3xl md:text-4xl max-w-[600px] text-white font-thin font-robotoLight text-center'>
-            Trnavsky kraj, Trenčiansky kraj, Banskobystricky kraj, Žilinsky kraj
-            a taktiez na Orave.
+            Bratislavský kraj, Trnavský kraj, Trenčiansky kraj, Banskobystrický
+            kraj, Žilinský kraj
           </p>
 
           <a
@@ -48,7 +48,7 @@ const About = () => {
             className=' bg-color-green m-10 hover:bg-color-seablue hover:scale-110 hover:rotate-2 duration-300 transition-all text-gray-900 text-2xl shadow-2xl py-2 px-4 rounded-md flex uppercase hover:text-gray-200 items-center justify-center max-w-[300px] mx-auto'
           >
             <RiContactsFill size={30} className='mr-2 ' />
-            Mam zaujem
+            Mám záujem
           </a>
         </div>
       </div>
@@ -68,9 +68,7 @@ const About = () => {
             <span className='text-color-green md:text-4xl text-2xl font-extrabold'>
               |{' '}
             </span>
-            <span className='text-color-green md:text-3xl text-2xl'>
-              Zdarma
-            </span>{' '}
+            <span className='text-color-green md:text-3xl text-xl'>Zdarma</span>{' '}
             kompletná cenová ponuka
           </li>
           <li
@@ -81,8 +79,8 @@ const About = () => {
               |{' '}
             </span>
             Viac ako{' '}
-            <span className='text-color-green md:text-3xl text-2xl'>25</span>{' '}
-            ročne skúsenosti s obkladačskymi prácami{' '}
+            <span className='text-color-green md:text-3xl text-xl'>25</span>{' '}
+            ročné skúsenosti s obkladačskými prácami{' '}
           </li>
           <li
             className='p-4 md:px-16 bg-gray-900/70 m-4 shadow-2xl hover:scale-105 duration-150 ease-in rounded-md'
@@ -91,7 +89,7 @@ const About = () => {
             <span className='text-color-green md:text-4xl text-2xl font-extrabold'>
               |{' '}
             </span>
-            Skvelý tým majstrov
+            Skvelý tím majstrov
           </li>
           <li
             className='p-4 md:px-16 bg-gray-900/70 m-4 shadow-2xl hover:scale-105 duration-150 ease-in rounded-md'
@@ -100,7 +98,7 @@ const About = () => {
             <span className='text-color-green md:text-4xl text-2xl font-extrabold'>
               |{' '}
             </span>
-            Skvelý a ľudský prístup k majiteľom
+            Ľudský prístup k majiteľom
           </li>
           <li
             className='p-4 md:px-16 bg-gray-900/70 m-4 shadow-2xl hover:scale-105 duration-150 ease-in rounded-md'
@@ -110,7 +108,7 @@ const About = () => {
               |{' '}
             </span>
             Kvalita za dostupnú{' '}
-            <span className='text-color-green md:text-3xl text-2xl'>cenu</span>{' '}
+            <span className='text-color-green md:text-3xl text-xl'>cenu</span>{' '}
             pre všetkých
           </li>
           <li
@@ -120,11 +118,8 @@ const About = () => {
             <span className='text-color-green md:text-4xl text-2xl font-extrabold'>
               |{' '}
             </span>
-            Vysoká{' '}
-            <span className='text-color-green md:text-3xl text-2xl'>
-              kvalita
-            </span>{' '}
-            cit pre detail a estetiku
+            <span className='text-color-green md:text-3xl text-xl'>Cit</span>{' '}
+            pre detail a estetiku
           </li>
           <li
             className='p-4 md:px-16 bg-gray-900/70 m-4 shadow-2xl hover:scale-105 duration-150 ease-in rounded-md'
@@ -133,7 +128,7 @@ const About = () => {
             <span className='text-color-green md:text-4xl text-2xl font-extrabold'>
               |{' '}
             </span>
-            Možnosť vybaviť obklady Dlažby za rozumné ceny u dodávateľov
+            Možnosť vybaviť obklady a dlažby za rozumné ceny u dodávateľov
           </li>
           <li
             className='p-4 md:px-16 bg-gray-900/70 m-4 shadow-2xl hover:scale-105 duration-150 ease-in rounded-md'
@@ -142,8 +137,8 @@ const About = () => {
             <span className='text-color-green md:text-4xl text-2xl font-extrabold'>
               |{' '}
             </span>
-            Možnost zabezpečiť material na realizáciu{' '}
-            <span className='text-color-green md:text-3xl text-2xl'>
+            Tiež vieme zabezpečiť materiál na realizáciu{' '}
+            <span className='text-color-green md:text-3xl text-xl'>
               za 30-40% zľavy
             </span>{' '}
           </li>

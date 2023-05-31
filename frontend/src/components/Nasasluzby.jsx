@@ -26,7 +26,7 @@ const Nasasluzby = () => {
             data-aos='fade-in'
           >
             {' '}
-            Rekonštrukcie bytov domov
+            Rekonštrukcie bytov a domov
           </li>
           <li
             className='w-full m-1 lg:text-2xl bg-black/60   p-3 lg:m-4   h-auto text-sm md:text-lg lg:w-[200px] lg:h-[200px] lg:items-center lg:flex justify-center border-l-2 border-color-green shadow-2xl'
@@ -55,7 +55,7 @@ const Nasasluzby = () => {
             data-aos='fade-in'
           >
             {' '}
-            Pokladka dlažby
+            Pokládka dlažby
           </li>
           <li
             className='w-full m-1 lg:text-2xl bg-black/60   p-3 lg:m-4   h-auto text-sm md:text-lg lg:w-[200px] lg:h-[200px] lg:items-center lg:flex justify-center border-l-2 border-color-green shadow-2xl'
@@ -69,7 +69,7 @@ const Nasasluzby = () => {
             data-aos='fade-in'
           >
             {' '}
-            Exterierove, dlažby na terče
+            Exteriérové dlažby na terče
           </li>
           <li
             className='w-full m-1 lg:text-2xl bg-black/60   p-3 lg:m-4   h-auto text-sm md:text-lg lg:w-[200px] lg:h-[200px] lg:items-center lg:flex justify-center border-l-2 border-color-green shadow-2xl'
@@ -83,7 +83,7 @@ const Nasasluzby = () => {
             data-aos='fade-in'
           >
             {' '}
-            Realizacia krbov
+            Realizácia krbov
           </li>
         </ul>
       </div>
@@ -95,16 +95,16 @@ const Nasasluzby = () => {
         </h2>
         <ul className='uppercase text-gray-200 bg-black/30 backdrop-blur-sm flex-wrap flex text-lg text-center font-robotoLight font-normal lg:font-thin md:text-2xl md:mt-4 lg:text-2xl   plus:text-2xl max-w-[1200px] mx-2'>
           <li className='w-full m-1 lg:text-xl bg-black/60   p-3 lg:m-4   h-auto text-sm md:text-lg lg:w-[200px] lg:h-[200px] lg:items-center lg:flex justify-center border-l-2 border-color-green shadow-2xl'>
-            Zabezpezit dovoz materiálu{' '}
+            Zabezpečiť dovoz materiálu{' '}
           </li>
           <li className='w-full m-1 lg:text-xl bg-black/60    p-3 lg:m-4   h-auto text-sm md:text-lg lg:w-[200px] lg:h-[200px] lg:items-center lg:flex justify-center border-l-2 border-color-green shadow-2xl'>
-            Vybaviť vám 30-40% zľavy na daný material.{' '}
+            Vybaviť 30-40% zľavy na daný materiál
           </li>
           <li className='w-full m-1 lg:text-xl bg-black/60   p-3 lg:m-4   h-auto text-sm md:text-lg lg:w-[200px] lg:h-[200px] lg:items-center lg:flex justify-center border-l-2 border-color-green shadow-2xl'>
-            Konzultacia ohladom vyberu obkladu, dlažby do domu/bytu.
+            Konzultácia ohľadom výberu obkladu, dlažby do domu/bytu
           </li>
           <li className='w-full m-1 lg:text-xl bg-black/60 p-3 lg:m-4   h-auto text-sm md:text-lg lg:w-[200px] lg:h-[200px] lg:items-center lg:flex justify-center border-l-2 border-color-green shadow-2xl'>
-            K dispozícii máme vodoinštalatera, elektrikára a iných remeselníkov.
+            K dispozícii máme vodoinštalatéra, elektrikára a iných remeselníkov
           </li>
         </ul>
       </div>

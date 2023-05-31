@@ -93,22 +93,22 @@ const Contact = () => {
           }`}
         >
           <li className='bg-black bg-gray-600/40 backdrop-blur-md p-2 rounded-md m-2 md:my-6 border-l-8 border-color-green hover:scale-105 duration-300'>
-            Telefonicky,Emailove oboznámenie s klientom o realizácii, predstave
+            Telefonické alebo e-mailové oboznámenie klienta ohľadom realizácie
           </li>
           <li className='bg-black bg-gray-600/40 backdrop-blur-md p-2 rounded-md m-2 md:my-6 border-l-8 border-color-green hover:scale-105 duration-300'>
             Prípadná obhliadka kdekoľvek v Bratislave a okolí Oravy
           </li>
           <li className='bg-black bg-gray-600/40 backdrop-blur-md p-2 rounded-md m-2 md:my-6 border-l-8 border-color-green hover:scale-105 duration-300'>
-            Cenová ponúka
+            Cenová ponuka
           </li>
           <li className='bg-black bg-gray-600/40 backdrop-blur-md p-2 rounded-md m-2 md:my-6 border-l-8 border-color-green hover:scale-105 duration-300'>
-            Po odsúhlasení Možný termín{' '}
+            Po odsúhlasení možný termín{' '}
           </li>
           <li className='bg-black bg-gray-600/40 backdrop-blur-md p-2 rounded-md m-2 md:my-6 border-l-8 border-color-green hover:scale-105 duration-300'>
-            Realizácia obkladov a dlažieb- príprava Montáž a finálne dokončenie
+            Realizácia obkladov a dlažieb, príprava montáže a finálne dokončenie
           </li>
           <li className='bg-black bg-gray-600/40 backdrop-blur-md p-2 rounded-md m-2 md:my-6 border-l-8 border-color-green hover:scale-105 duration-300'>
-            Odovzdávanie, kontrola práce a obojsmerna spokojnosť
+            Odovzdávanie, kontrola práce a obojsmerná spokojnosť
           </li>
         </ul>
       </div>
@@ -122,7 +122,7 @@ const Contact = () => {
           className='flex flex-col bg-black/40 max-w-[600px] backdrop-blur-md  p-6  hover:scale-105 duration-500 mx-4 '
         >
           <h2 className='text-center text-3xl mx-auto  p-2'>
-            Kontaktujte nás, ozvame sa vám
+            Kontaktujte nás, ozvame sa Vám
           </h2>
           <div className='mx-auto relative px-2'>
             {submitted === true && (
@@ -169,7 +169,7 @@ const Contact = () => {
             type='submit'
             className='bg-color-green  hover:bg-color-seablue hover:scale-110 hover:rotate-2 duration-300 transition-all text-gray-900 text-2xl shadow-2xl py-2 px-10 rounded-md flex uppercase hover:text-gray-200 items-center justify-center max-w-[300px] mx-auto'
           >
-            Odoslat <AiOutlineSend className='inline ml-3' size={30} />
+            Odoslať <AiOutlineSend className='inline ml-3' size={30} />
           </button>
         </form>
         {/* KONTAKT */}
@@ -180,7 +180,7 @@ const Contact = () => {
               href='mailto:bksobkladacskeprace@gmail.com'
               className='text-color-green font-bold text-2xl'
             >
-              Email:
+              E-mail:
             </a>
 
             <p
@@ -211,7 +211,7 @@ const Contact = () => {
           {/* socialne siete  */}
 
           <span className='w-[70%] h-[1px] bg-color-green mx-auto my-8'></span>
-          <h2 className='text-3xl mx-auto'>Socialne siete</h2>
+          <h2 className='text-3xl mx-auto'>Sociálne siete</h2>
           <div className='flex justify-around p-6  gap-10 mx-auto'>
             <a
               href='https://www.facebook.com/profile.php?id=100064028439648'
