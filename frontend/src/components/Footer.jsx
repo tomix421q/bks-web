@@ -20,13 +20,13 @@ const Footer = () => {
                 <a href='#home'>Domov</a>
               </li>
               <li className='hover:underline duration-300 m-1'>
-                <a href='#about'>O nas</a>
+                <a href='#about'>O nás</a>
               </li>
               <li className='hover:underline duration-300 m-1'>
-                <a href='#ourServices'>Nase sluzby</a>
+                <a href='#ourServices'>Naše služby</a>
               </li>
               <li className='hover:underline duration-300 m-1'>
-                <a href='#gallery'>Galleria</a>
+                <a href='#gallery'>Galéria</a>
               </li>
               <li className='hover:underline duration-300 m-1'>
                 <a href='#contact'>Kontakt</a>

@@ -49,12 +49,13 @@ const Smallbanner = () => {
         slideDuration={500} // trvanie prechodu na 500 milisekúnd
         showThumbnails={false} // skryje náhľady obrázkov
         showNav={false} // Odstráni posuvacie šípky
+        si
       />
     )
   }
   return (
     <div
-      className='md:mx-auto lg:w-[40%] shadow-md shadow-black hidden lg:block transition-all ease-linear duration-1000 '
+      className='md:mx-auto lg:w-[40%] shadow-black hidden lg:flex '
       data-aos='fade-in'
     >
       <MyImageGallery />

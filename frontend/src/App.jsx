@@ -16,16 +16,16 @@ import 'aos/dist/aos.css'
 
 function App() {
   // ONLOAD
-  const [loading, setLoading] = useState(false)
+  const [loading, setLoading] = useState(true)
   useEffect(() => {
     const handleLoad = () => {
       setLoading(false)
     }
 
-    document.getElementById('home').addEventListener('load', handleLoad)
+    window.addEventListener('load', handleLoad)
 
     return () => {
-      document.getElementById('home').removeEventListener('load', handleLoad)
+      window.removeEventListener('load', handleLoad)
     }
   }, [])
 

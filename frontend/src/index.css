@@ -23,6 +23,7 @@ html {
     z-index: -99;
     width: max-content;
     background-attachment: fixed;
+    filter: brightness(0.6);
   }
 }
 

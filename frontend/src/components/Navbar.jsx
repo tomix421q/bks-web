@@ -72,7 +72,7 @@ const Navbar = () => {
             <a href='/#contact'>Kontakt</a>
           </li>
           <li className='p-4'>
-            <a href='/#gallery'>Galléria</a>
+            <a href='/#gallery'>Galéria</a>
           </li>
         </ul>
         {/*  */}

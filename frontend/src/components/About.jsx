@@ -68,7 +68,21 @@ const About = () => {
             <span className='text-color-green md:text-4xl text-2xl font-extrabold'>
               |{' '}
             </span>
-            Viac ako 25 ročne skúsenosti s obkladačskymi prácami{' '}
+            <span className='text-color-green md:text-3xl text-2xl'>
+              Zdarma
+            </span>{' '}
+            kompletná cenová ponuka
+          </li>
+          <li
+            className='p-4 md:px-16 bg-gray-900/70 m-4 shadow-2xl hover:scale-105 duration-150 ease-in rounded-sm '
+            data-aos='fade-in'
+          >
+            <span className='text-color-green md:text-4xl text-2xl font-extrabold'>
+              |{' '}
+            </span>
+            Viac ako{' '}
+            <span className='text-color-green md:text-3xl text-2xl'>25</span>{' '}
+            ročne skúsenosti s obkladačskymi prácami{' '}
           </li>
           <li
             className='p-4 md:px-16 bg-gray-900/70 m-4 shadow-2xl hover:scale-105 duration-150 ease-in rounded-md'
@@ -95,7 +109,9 @@ const About = () => {
             <span className='text-color-green md:text-4xl text-2xl font-extrabold'>
               |{' '}
             </span>
-            Kvalita za dostupnú cenu pre všetkých
+            Kvalita za dostupnú{' '}
+            <span className='text-color-green md:text-3xl text-2xl'>cenu</span>{' '}
+            pre všetkých
           </li>
           <li
             className='p-4 md:px-16 bg-gray-900/70 m-4 shadow-2xl hover:scale-105 duration-150 ease-in rounded-md'
@@ -104,7 +120,11 @@ const About = () => {
             <span className='text-color-green md:text-4xl text-2xl font-extrabold'>
               |{' '}
             </span>
-            Vysoká kvalita cit pre detail a estetiku
+            Vysoká{' '}
+            <span className='text-color-green md:text-3xl text-2xl'>
+              kvalita
+            </span>{' '}
+            cit pre detail a estetiku
           </li>
           <li
             className='p-4 md:px-16 bg-gray-900/70 m-4 shadow-2xl hover:scale-105 duration-150 ease-in rounded-md'
@@ -122,7 +142,10 @@ const About = () => {
             <span className='text-color-green md:text-4xl text-2xl font-extrabold'>
               |{' '}
             </span>
-            Možnost zabezpečiť material na realizaciu za 30-40% zľavy
+            Možnost zabezpečiť material na realizáciu{' '}
+            <span className='text-color-green md:text-3xl text-2xl'>
+              za 30-40% zľavy
+            </span>{' '}
           </li>
         </ul>
       </div>
