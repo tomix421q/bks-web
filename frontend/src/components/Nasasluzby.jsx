@@ -14,44 +14,74 @@ const Nasasluzby = () => {
           </h1>
         </div>
 
-        <ul className='uppercase text-gray-200  flex-wrap flex text-lg text-center justify-center  font-robotoLight font-normal lg:font-thin  md:text-2xl md:mt-4 min-w-[300px]   max-w-[1200px]'>
-          <li className='w-full m-1 lg:text-2xl bg-black/60 p-3 lg:m-4 h-auto text-sm md:text-lg lg:w-[200px] lg:h-[200px] lg:items-center lg:flex justify-center border-l-2 border-color-green shadow-2xl'>
+        <ul className='uppercase text-gray-200 bg-black/30 backdrop-blur-sm  flex-wrap flex text-lg text-center justify-center  font-robotoLight font-normal lg:font-thin  md:text-2xl md:mt-4 min-w-[300px]   max-w-[1200px] mx-2'>
+          <li
+            className='w-full m-1 lg:text-2xl bg-black/60 p-3 lg:m-4 h-auto text-sm md:text-lg lg:w-[200px] lg:h-[200px] lg:items-center lg:flex justify-center border-l-2 border-color-green shadow-2xl'
+            data-aos='fade-in'
+          >
             obkladanie do rozmeru 160x320cm
           </li>
-          <li className='w-full m-1 lg:text-2xl bg-black/60   p-3 lg:m-4   h-auto text-sm md:text-lg lg:w-[200px] lg:h-[200px] lg:items-center lg:flex justify-center border-l-2 border-color-green shadow-2xl'>
+          <li
+            className='w-full m-1 lg:text-2xl bg-black/60   p-3 lg:m-4   h-auto text-sm md:text-lg lg:w-[200px] lg:h-[200px] lg:items-center lg:flex justify-center border-l-2 border-color-green shadow-2xl'
+            data-aos='fade-in'
+          >
             {' '}
             Rekonštrukcie bytov domov
           </li>
-          <li className='w-full m-1 lg:text-2xl bg-black/60   p-3 lg:m-4   h-auto text-sm md:text-lg lg:w-[200px] lg:h-[200px] lg:items-center lg:flex justify-center border-l-2 border-color-green shadow-2xl'>
+          <li
+            className='w-full m-1 lg:text-2xl bg-black/60   p-3 lg:m-4   h-auto text-sm md:text-lg lg:w-[200px] lg:h-[200px] lg:items-center lg:flex justify-center border-l-2 border-color-green shadow-2xl'
+            data-aos='fade-in'
+          >
             {' '}
             Montáž sanity
           </li>
 
-          <li className='w-full m-1 lg:text-2xl bg-black/60   p-3 lg:m-4   h-auto text-sm md:text-lg lg:w-[200px] lg:h-[200px] lg:items-center lg:flex justify-center border-l-2 border-color-green shadow-2xl'>
+          <li
+            className='w-full m-1 lg:text-2xl bg-black/60   p-3 lg:m-4   h-auto text-sm md:text-lg lg:w-[200px] lg:h-[200px] lg:items-center lg:flex justify-center border-l-2 border-color-green shadow-2xl'
+            data-aos='fade-in'
+          >
             {' '}
             Murárske práce
           </li>
-          <li className='w-full m-1 lg:text-2xl bg-black/60   p-3 lg:m-4   h-auto text-sm md:text-lg lg:w-[200px] lg:h-[200px] lg:items-center lg:flex justify-center border-l-2 border-color-green shadow-2xl'>
+          <li
+            className='w-full m-1 lg:text-2xl bg-black/60   p-3 lg:m-4   h-auto text-sm md:text-lg lg:w-[200px] lg:h-[200px] lg:items-center lg:flex justify-center border-l-2 border-color-green shadow-2xl'
+            data-aos='fade-in'
+          >
             {' '}
             Sadrokartóny
           </li>
-          <li className='w-full m-1 lg:text-2xl bg-black/60   p-3 lg:m-4   h-auto text-sm md:text-lg lg:w-[200px] lg:h-[200px] lg:items-center lg:flex justify-center border-l-2 border-color-green shadow-2xl'>
+          <li
+            className='w-full m-1 lg:text-2xl bg-black/60   p-3 lg:m-4   h-auto text-sm md:text-lg lg:w-[200px] lg:h-[200px] lg:items-center lg:flex justify-center border-l-2 border-color-green shadow-2xl'
+            data-aos='fade-in'
+          >
             {' '}
             Pokladka dlažby
           </li>
-          <li className='w-full m-1 lg:text-2xl bg-black/60   p-3 lg:m-4   h-auto text-sm md:text-lg lg:w-[200px] lg:h-[200px] lg:items-center lg:flex justify-center border-l-2 border-color-green shadow-2xl'>
+          <li
+            className='w-full m-1 lg:text-2xl bg-black/60   p-3 lg:m-4   h-auto text-sm md:text-lg lg:w-[200px] lg:h-[200px] lg:items-center lg:flex justify-center border-l-2 border-color-green shadow-2xl'
+            data-aos='fade-in'
+          >
             {' '}
             Jolly hrany
           </li>
-          <li className='w-full m-1 lg:text-2xl bg-black/60   p-3 lg:m-4   h-auto text-sm md:text-lg lg:w-[200px] lg:h-[200px] lg:items-center lg:flex justify-center border-l-2 border-color-green shadow-2xl'>
+          <li
+            className='w-full m-1 lg:text-2xl bg-black/60   p-3 lg:m-4   h-auto text-sm md:text-lg lg:w-[200px] lg:h-[200px] lg:items-center lg:flex justify-center border-l-2 border-color-green shadow-2xl'
+            data-aos='fade-in'
+          >
             {' '}
-            Vonkajšej, dlažby na terče
+            Exterierove, dlažby na terče
           </li>
-          <li className='w-full m-1 lg:text-2xl bg-black/60   p-3 lg:m-4   h-auto text-sm md:text-lg lg:w-[200px] lg:h-[200px] lg:items-center lg:flex justify-center border-l-2 border-color-green shadow-2xl'>
+          <li
+            className='w-full m-1 lg:text-2xl bg-black/60   p-3 lg:m-4   h-auto text-sm md:text-lg lg:w-[200px] lg:h-[200px] lg:items-center lg:flex justify-center border-l-2 border-color-green shadow-2xl'
+            data-aos='fade-in'
+          >
             {' '}
             Maľovanie
           </li>
-          <li className='w-full m-1 lg:text-2xl bg-black/60   p-3 lg:m-4   h-auto text-sm md:text-lg lg:w-[200px] lg:h-[200px] lg:items-center lg:flex justify-center border-l-2 border-color-green shadow-2xl'>
+          <li
+            className='w-full m-1 lg:text-2xl bg-black/60   p-3 lg:m-4   h-auto text-sm md:text-lg lg:w-[200px] lg:h-[200px] lg:items-center lg:flex justify-center border-l-2 border-color-green shadow-2xl'
+            data-aos='fade-in'
+          >
             {' '}
             Realizacia krbov
           </li>
@@ -59,15 +89,11 @@ const Nasasluzby = () => {
       </div>
       {/* Taktie vieme  */}
       <div className=' text-white mx-auto lg:mt-12 '>
-        <h2 className='lg:mb-[100px] mb-10 w-fit mt-28 text-3xl text-center lg:text-6xl  mx-auto text-white p-4 m-2  bg-gray-700/10 transition-all duration-300 ease-in-out hover:scale-105 backdrop-blur-sm font-robotoLight font-thin border-2'>
-          {/* <span className='text-color-green text-4xl font-normal'>
-                    |
-                  </span> */}
-          <span className='text-color-green '>[</span>
-          Taktiez vieme
-          <span className='text-color-green'>]</span>
+        <h2 className='md:text-8xl text-6xl text-center mx-auto p-2 font-bold m-10  text-gray-100 font-robotoLight backdrop-blur-sm '>
+          Tiež
+          <span className='text-color-green rotate-2'> vieme...</span>
         </h2>
-        <ul className='uppercase text-gray-200 flex-wrap flex text-lg text-center font-robotoLight font-normal lg:font-thin md:text-2xl md:mt-4 lg:text-2xl   plus:text-2xl max-w-[1200px]'>
+        <ul className='uppercase text-gray-200 bg-black/30 backdrop-blur-sm flex-wrap flex text-lg text-center font-robotoLight font-normal lg:font-thin md:text-2xl md:mt-4 lg:text-2xl   plus:text-2xl max-w-[1200px] mx-2'>
           <li className='w-full m-1 lg:text-xl bg-black/60   p-3 lg:m-4   h-auto text-sm md:text-lg lg:w-[200px] lg:h-[200px] lg:items-center lg:flex justify-center border-l-2 border-color-green shadow-2xl'>
             Zabezpezit dovoz materiálu{' '}
           </li>

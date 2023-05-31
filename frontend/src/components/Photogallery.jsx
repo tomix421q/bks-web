@@ -155,7 +155,7 @@ const Photogallery = () => {
         <div className='mx-auto flex justify-center m-2 p-2 lg:hidden'>
           <button
             onClick={handleButtonClickSmall}
-            className={isActive ? 'p-4 bg-black/40' : 'bg-gray-800/70 p-4'}
+            className={isActive ? 'p-4 bg-black/40' : 'bg-gray-800/70 p-4 '}
           >
             {isActive ? (
               <TfiLayoutGrid4 size={30} className='text-gray-400 mx-4' />
@@ -178,7 +178,7 @@ const Photogallery = () => {
           </button>
         </div>
 
-        <div className='p-4 lg:p-[40px] bg-black/40 backdrop-blur-md '>
+        <div className='p-4 lg:p-[40px] bg-black/40  mx-2 backdrop-blur-md '>
           <LazyLoad offset={2000}>
             <ResponsiveMasonry
               columnsCountBreakPoints={{

@@ -62,17 +62,17 @@ const Navbar = () => {
             <a href='#home'>Domov</a>
           </li>
           <li className='p-4'>
-            <a href='/#about'>O nas</a>
+            <a href='/#about'>O nás</a>
           </li>
           <li className='p-4'>
-            <a href='/#ourServices'>Nase sluzby</a>
+            <a href='/#ourServices'>Naše služby</a>
           </li>
 
           <li className='p-4'>
             <a href='/#contact'>Kontakt</a>
           </li>
           <li className='p-4'>
-            <a href='/#gallery'>Galleria</a>
+            <a href='/#gallery'>Galléria</a>
           </li>
         </ul>
         {/*  */}
@@ -105,12 +105,12 @@ const Navbar = () => {
 
             <li className='p-4 text-4xl md:text-7xl hover:text-gray-500'>
               <a href='/#about' onClick={handleNav}>
-                O nas
+                O nás
               </a>
             </li>
             <li className='p-4 text-4xl md:text-7xl hover:text-gray-500'>
               <a href='/#ourServices' onClick={handleNav}>
-                Nase sluzby
+                Naše služby
               </a>
             </li>
             <li className='p-4 text-4xl md:text-7xl hover:text-gray-500'>
@@ -120,7 +120,7 @@ const Navbar = () => {
             </li>
             <li className='p-4 text-4xl md:text-7xl hover:text-gray-500'>
               <a href='/#gallery' onClick={handleNav}>
-                Galeria
+                Galéria
               </a>
             </li>
           </ul>

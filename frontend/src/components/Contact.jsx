@@ -115,14 +115,14 @@ const Contact = () => {
       {/* END TOGGLE */}
 
       {/* FORMULAR + CONTACT INFO */}
-      <div className='mt-[70px] flex flex-col lg:flex-row mx-auto justify-around'>
+      <div className='mt-[70px] flex flex-col lg:flex-row mx-auto items-center justify-around'>
         <form
           onSubmit={handleSubmit}
           action='https://formspree.io/f/xbjeekgb'
-          className='flex flex-col bg-black/40 max-w-[600px] backdrop-blur-md  p-6  hover:scale-105 duration-500 mx-auto'
+          className='flex flex-col bg-black/40 max-w-[600px] backdrop-blur-md  p-6  hover:scale-105 duration-500 mx-4 '
         >
-          <h2 className='text-3xl mx-auto  p-2'>
-            Kontaktujte nas, ozvame sa vam
+          <h2 className='text-center text-3xl mx-auto  p-2'>
+            Kontaktujte nás, ozvame sa vám
           </h2>
           <div className='mx-auto relative px-2'>
             {submitted === true && (
@@ -173,7 +173,7 @@ const Contact = () => {
           </button>
         </form>
         {/* KONTAKT */}
-        <div className='max-w-[600px] p-4 flex flex-col mt-[50px] w-full lg:mt-0  bg-black/40 backdrop-blur-md hover:scale-105 duration-500 mx-auto'>
+        <div className='max-w-[600px] p-4 flex flex-col mt-[50px] lg:mt-0  bg-black/40 backdrop-blur-md hover:scale-105 duration-500 justify-center mx-4 md:w-full'>
           {/* email */}
           <div className='flex justify-center flex-col text-center m-2'>
             <a
