@@ -16,7 +16,7 @@ import 'aos/dist/aos.css'
 
 function App() {
   // ONLOAD
-  const [loading, setLoading] = useState(true)
+  const [loading, setLoading] = useState(undefined)
   useEffect(() => {
     const handleLoad = () => {
       setLoading(false)
