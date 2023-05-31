@@ -30,6 +30,7 @@ html {
 
     height: 100vh;
     z-index: -99;
+    width: max-content;
     /* margin-top: 60px; */
     /* bottom: 0; */
   }
