@@ -118,33 +118,22 @@ const Photogallery = () => {
             {...handlers}
           >
             {/* zavriet */}
-            <button
-              className='absolute top-[10px] right-[10px] text-white'
-              onClick={() => imgAction('')}
-            >
+            <button className='absolute top-[10px] right-[10px] text-white' onClick={() => imgAction('')}>
               <CgClose size={50} />
             </button>
             {/* spet */}
             <button
-              className={`text-white absolute left-[2%] ${
-                isFirstImage ? 'hidden' : 'block'
-              }`}
+              className={`text-white absolute left-[2%] ${isFirstImage ? 'hidden' : 'block'}`}
               onClick={() => imgAction('previus-img')}
             >
               <FcPrevious size={50} />
             </button>
 
-            <img
-              src={data.img}
-              className='w-auto max-w-[90%] max-h-[90%]'
-              alt='Gallery'
-            />
+            <img src={data.img} className='w-auto max-w-[90%] max-h-[90%]' alt='Gallery' />
 
             {/* dalej */}
             <button
-              className={`text-white absolute right-[2%] ${
-                isLastImage ? 'hidden' : 'block'
-              }`}
+              className={`text-white absolute right-[2%] ${isLastImage ? 'hidden' : 'block'}`}
               onClick={() => imgAction('next-img')}
             >
               <FcNext size={50} />
@@ -153,10 +142,7 @@ const Photogallery = () => {
         )}
 
         <div className='mx-auto flex justify-center m-2 p-2 lg:hidden'>
-          <button
-            onClick={handleButtonClickSmall}
-            className={isActive ? 'p-4 bg-black/40' : 'bg-gray-800/70 p-4 '}
-          >
+          <button onClick={handleButtonClickSmall} className={isActive ? 'p-4 bg-black/40' : 'bg-gray-800/70 p-4 '}>
             {isActive ? (
               <TfiLayoutGrid4 size={30} className='text-gray-400 mx-4' />
             ) : (
@@ -166,10 +152,7 @@ const Photogallery = () => {
         </div>
 
         <div className='mx-auto justify-center m-2 p-2 hidden lg:flex'>
-          <button
-            onClick={handleButtonClickBig}
-            className={isActive ? 'p-4 bg-black/40' : 'bg-gray-800/70 p-4'}
-          >
+          <button onClick={handleButtonClickBig} className={isActive ? 'p-4 bg-black/40' : 'bg-gray-800/70 p-4'}>
             {isActive ? (
               <TbColumns3 size={30} className='text-gray-400 mx-4' />
             ) : (

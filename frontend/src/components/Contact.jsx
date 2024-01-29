@@ -66,22 +66,12 @@ const Contact = () => {
         <div className='flex items-center justify-between mx-2 mt-10 md:mx-auto bg-gray-600/40 backdrop-blur-md p-2 rounded-md'>
           <h4 className='text-2xl md:text-4xl text-md font-bold text-gray-100 font-robotoLight '>
             Aký je postup keď sa rozhodnete <br />
-            <span className='text-color-green rotate-2'>
-              pre realizáciu od nás?
-            </span>
+            <span className='text-color-green rotate-2'>pre realizáciu od nás?</span>
           </h4>
           {isOpen ? (
-            <FaMinus
-              size={40}
-              className='m-2 transition-all duration-500 animate-bounce '
-              onClick={handleToggle}
-            />
+            <FaMinus size={40} className='m-2 transition-all duration-500 animate-bounce ' onClick={handleToggle} />
           ) : (
-            <FaPlus
-              size={40}
-              className='m-2 transition-all duration-500 animate-pulse'
-              onClick={handleToggle}
-            />
+            <FaPlus size={40} className='m-2 transition-all duration-500 animate-pulse' onClick={handleToggle} />
           )}
         </div>
 
@@ -121,17 +111,12 @@ const Contact = () => {
           action='https://formspree.io/f/xbjeekgb'
           className='flex flex-col bg-black/40 max-w-[600px] backdrop-blur-md  p-6  hover:scale-105 duration-500 mx-4 '
         >
-          <h2 className='text-center text-3xl mx-auto  p-2'>
-            Kontaktujte nás, ozvame sa Vám
-          </h2>
+          <h2 className='text-center text-3xl mx-auto  p-2'>Kontaktujte nás, ozvame sa Vám</h2>
           <div className='mx-auto relative px-2'>
             {submitted === true && (
               <div className='absolute bg-gray-800 rounded-lg backdrop-blur-lg top-0 bottom-0 left-0 right-0'>
                 <h2 className='text-center text-4xl flex justify-center translate-y-[250%]'>
-                  Sprava bola odoslana,{' '}
-                  <span className='text-color-green font-robotoLight'>
-                    dakujeme.
-                  </span>
+                  Sprava bola odoslana, <span className='text-color-green font-robotoLight'>dakujeme.</span>
                 </h2>
               </div>
             )}
@@ -176,36 +161,23 @@ const Contact = () => {
         <div className='max-w-[600px] p-4 flex flex-col mt-[50px] lg:mt-0  bg-black/40 backdrop-blur-md hover:scale-105 duration-500 justify-center mx-4 md:w-full'>
           {/* email */}
           <div className='flex justify-center flex-col text-center m-2'>
-            <a
-              href='mailto:bksobkladacskeprace@gmail.com'
-              className='text-color-green font-bold text-2xl'
-            >
+            <a href='mailto:bksobkladacskeprace@gmail.com' className='text-color-green font-bold text-2xl'>
               E-mail:
             </a>
 
-            <p
-              href='mailto:bksobkladacskeprace@gmail.com'
-              className=' text-xl md:text-2xl'
-            >
-              <AiOutlineMail className='inline mb-1 text-color-green' />{' '}
-              bksobkladacskeprace@gmail.com
+            <p href='mailto:bksobkladacskeprace@gmail.com' className=' text-xl md:text-2xl'>
+              <AiOutlineMail className='inline mb-1 text-color-green' /> bksobkladacskeprace@gmail.com
             </p>
           </div>
           {/* tel */}
           <div className='flex justify-center flex-col text-center m-2'>
-            <a
-              href='tel:+421 910 387 825'
-              className='text-color-green font-bold text-2xl'
-            >
+            <a href='tel:+421 944 114 368' className='text-color-green font-bold text-2xl'>
               Tel:
             </a>
 
-            <p
-              href='tel:+421 910 387 825'
-              className='text-xl md:text-2xl mx-auto p-2'
-            >
+            <p href='tel:+421 944 114 368' className='text-xl md:text-2xl mx-auto p-2'>
               <AiOutlineMobile className='inline mb-1 text-color-green' />
-              +421 910 387 825
+              +421 944 114 368
             </p>
           </div>
           {/* socialne siete  */}
@@ -213,20 +185,11 @@ const Contact = () => {
           <span className='w-[70%] h-[1px] bg-color-green mx-auto my-8'></span>
           <h2 className='text-3xl mx-auto'>Sociálne siete</h2>
           <div className='flex justify-around p-6  gap-10 mx-auto'>
-            <a
-              href='https://www.facebook.com/profile.php?id=100064028439648'
-              target='_blank'
-            >
-              <AiFillFacebook
-                size={80}
-                className='hover:scale-110 duration-500'
-              />
+            <a href='https://www.facebook.com/profile.php?id=100064028439648' target='_blank'>
+              <AiFillFacebook size={80} className='hover:scale-110 duration-500' />
             </a>
-            <a href='' target='_blank'>
-              <AiOutlineInstagram
-                size={80}
-                className='hover:scale-110 duration-500'
-              />
+            <a href='https://www.instagram.com/bks.obklady?igsh=ZXdhcDU2ZXFvNTZu' target='_blank'>
+              <AiOutlineInstagram size={80} className='hover:scale-110 duration-500' />
             </a>
           </div>
         </div>
