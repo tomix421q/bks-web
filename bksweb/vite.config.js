@@ -15,7 +15,7 @@ export default defineConfig({
     port: 4173, // Štandardný port pre vite preview
     strictPort: true, // Zabezpečí, že sa použije tento port
     allowedHosts: [
-      'isgsoc04gssgw88cw40k4c8c.tz-server.online',
+      'lo0o80s84480scos0k400484.tz-server.online',
       '.tz-server.online', // Povolí všetky subdomény pod tz-server.online
       // Toto je dobrá záchranná sieť, ak sa prefix mení.
       'localhost', // Pre lokálne testovanie preview
