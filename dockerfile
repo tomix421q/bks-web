@@ -1,6 +1,6 @@
 FROM node:23-alpine
 
-WORKDIR /app
+WORKDIR /BKS-Web
 
 COPY package*.json ./
 RUN npm install
