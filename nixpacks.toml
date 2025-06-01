@@ -1,0 +1,10 @@
+providers = ["node"]
+
+[phases.build]
+cmd = "npm run build"
+
+[phases.start]
+cmd = "npm run preview"
+
+[variables]
+NODE_ENV = "production"
