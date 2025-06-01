@@ -17,9 +17,9 @@ export default defineConfig({
     allowedHosts: [
       'isgsoc04gssgw88cw40k4c8c.tz-server.online',
       '.tz-server.online', // Povolí všetky subdomény pod tz-server.online
-      // Môžeš pridať aj 'localhost' a '127.0.0.1', ak testuješ preview lokálne
-      // 'localhost',
-      // '127.0.0.1'
+      // Toto je dobrá záchranná sieť, ak sa prefix mení.
+      'localhost', // Pre lokálne testovanie preview
+      '127.0.0.1', // Pre lokálne testovanie preview
     ],
   },
 })
