@@ -6,7 +6,7 @@ import { useSwipeable } from 'react-swipeable'
 //
 import { FcNext, FcPrevious } from 'react-icons/fc'
 import { CgClose } from 'react-icons/cg'
-import { SlArrowDown, SlArrowUp } from 'react-icons/Sl'
+import { SlArrowDown, SlArrowUp } from 'react-icons/sl'
 import { TfiLayoutGrid4, TfiViewGrid } from 'react-icons/tfi'
 import { TbColumns2, TbColumns3 } from 'react-icons/tb'
 
