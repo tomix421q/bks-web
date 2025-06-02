@@ -1,7 +1,5 @@
 import { RiContactsFill } from 'react-icons/ri'
-import { BiMap } from 'react-icons/Bi'
-import LazyLoad from 'react-lazy-load'
-import React from 'react'
+import { BiMap } from 'react-icons/bi'
 
 const About = () => {
   return (
@@ -18,16 +16,13 @@ const About = () => {
         {/* LEFT ABOUT  */}
 
         <p className='text-xl text-center md:text-3xl lg:text-4xl max-w-[600px] text-white font-normal font-robotoLight'>
-          Sme partia obkladačov s{' '}
-          <span className='text-color-green'>dlhoročnými</span> skúsenosťami na
-          trhu.
+          Sme partia obkladačov s <span className='text-color-green'>dlhoročnými</span> skúsenosťami na trhu.
           <br />
-          Patríme k jedným z prvých, ktorí na Slovensku začali pracovať s
-          veľkoformátovými dlažbami do rozmerov 160x320cm.
+          Patríme k jedným z prvých, ktorí na Slovensku začali pracovať s veľkoformátovými dlažbami do rozmerov 160x320cm.
           <br />
           Máme
-          <span className='text-color-green'> cit pre detail a estetiku</span>,
-          sme priateľský, a pracujeme na profesionálnej úrovni.{' '}
+          <span className='text-color-green'> cit pre detail a estetiku</span>, sme priateľský, a pracujeme na profesionálnej
+          úrovni.{' '}
         </p>
 
         <span className='m-2 h-1 bg-color-green w-[80%] bg-opacity-60 rounded-full md:hidden'></span>
@@ -39,8 +34,7 @@ const About = () => {
             <BiMap className='mx-auto  text-5xl ' />
           </h2>
           <p className='text-3xl md:text-4xl max-w-[600px] text-white font-thin font-robotoLight text-center'>
-            Bratislavský kraj, Trnavský kraj, Trenčiansky kraj, Banskobystrický
-            kraj, Žilinský kraj
+            Bratislavský kraj, Trnavský kraj, Trenčiansky kraj, Banskobystrický kraj, Žilinský kraj
           </p>
 
           <a
@@ -65,82 +59,58 @@ const About = () => {
             className='p-4 md:px-16 bg-gray-900/70 m-4 shadow-2xl hover:scale-105 duration-150 ease-in rounded-sm '
             data-aos='fade-in'
           >
-            <span className='text-color-green md:text-4xl text-2xl font-extrabold'>
-              |{' '}
-            </span>
-            <span className='text-color-green md:text-3xl text-xl'>Zdarma</span>{' '}
-            kompletná cenová ponuka
+            <span className='text-color-green md:text-4xl text-2xl font-extrabold'>| </span>
+            <span className='text-color-green md:text-3xl text-xl'>Zdarma</span> kompletná cenová ponuka
           </li>
           <li
             className='p-4 md:px-16 bg-gray-900/70 m-4 shadow-2xl hover:scale-105 duration-150 ease-in rounded-sm '
             data-aos='fade-in'
           >
-            <span className='text-color-green md:text-4xl text-2xl font-extrabold'>
-              |{' '}
-            </span>
-            Viac ako{' '}
-            <span className='text-color-green md:text-3xl text-xl'>25</span>{' '}
-            ročné skúsenosti s obkladačskými prácami{' '}
+            <span className='text-color-green md:text-4xl text-2xl font-extrabold'>| </span>
+            Viac ako <span className='text-color-green md:text-3xl text-xl'>25</span> ročné skúsenosti s obkladačskými prácami{' '}
           </li>
           <li
             className='p-4 md:px-16 bg-gray-900/70 m-4 shadow-2xl hover:scale-105 duration-150 ease-in rounded-md'
             data-aos='fade-in'
           >
-            <span className='text-color-green md:text-4xl text-2xl font-extrabold'>
-              |{' '}
-            </span>
+            <span className='text-color-green md:text-4xl text-2xl font-extrabold'>| </span>
             Skvelý tím majstrov
           </li>
           <li
             className='p-4 md:px-16 bg-gray-900/70 m-4 shadow-2xl hover:scale-105 duration-150 ease-in rounded-md'
             data-aos='fade-in'
           >
-            <span className='text-color-green md:text-4xl text-2xl font-extrabold'>
-              |{' '}
-            </span>
+            <span className='text-color-green md:text-4xl text-2xl font-extrabold'>| </span>
             Ľudský prístup k majiteľom
           </li>
           <li
             className='p-4 md:px-16 bg-gray-900/70 m-4 shadow-2xl hover:scale-105 duration-150 ease-in rounded-md'
             data-aos='fade-in'
           >
-            <span className='text-color-green md:text-4xl text-2xl font-extrabold'>
-              |{' '}
-            </span>
-            Kvalita za dostupnú{' '}
-            <span className='text-color-green md:text-3xl text-xl'>cenu</span>{' '}
-            pre všetkých
+            <span className='text-color-green md:text-4xl text-2xl font-extrabold'>| </span>
+            Kvalita za dostupnú <span className='text-color-green md:text-3xl text-xl'>cenu</span> pre všetkých
           </li>
           <li
             className='p-4 md:px-16 bg-gray-900/70 m-4 shadow-2xl hover:scale-105 duration-150 ease-in rounded-md'
             data-aos='fade-in'
           >
-            <span className='text-color-green md:text-4xl text-2xl font-extrabold'>
-              |{' '}
-            </span>
-            <span className='text-color-green md:text-3xl text-xl'>Cit</span>{' '}
-            pre detail a estetiku
+            <span className='text-color-green md:text-4xl text-2xl font-extrabold'>| </span>
+            <span className='text-color-green md:text-3xl text-xl'>Cit</span> pre detail a estetiku
           </li>
           <li
             className='p-4 md:px-16 bg-gray-900/70 m-4 shadow-2xl hover:scale-105 duration-150 ease-in rounded-md'
             data-aos='fade-in'
           >
-            <span className='text-color-green md:text-4xl text-2xl font-extrabold'>
-              |{' '}
-            </span>
+            <span className='text-color-green md:text-4xl text-2xl font-extrabold'>| </span>
             Možnosť vybaviť obklady a dlažby za rozumné ceny u dodávateľov
           </li>
           <li
             className='p-4 md:px-16 bg-gray-900/70 m-4 shadow-2xl hover:scale-105 duration-150 ease-in rounded-md'
             data-aos='fade-in'
           >
-            <span className='text-color-green md:text-4xl text-2xl font-extrabold'>
-              |{' '}
-            </span>
+            <span className='text-color-green md:text-4xl text-2xl font-extrabold'>| </span>
             Tiež vieme zabezpečiť materiál na realizáciu{' '}
-            <span className='text-color-green md:text-3xl text-xl'>
-              za 30-40% zľavy
-            </span>{' '}
+            <span className='text-color-green md:text-3xl text-xl'>za 30-40% zľavy</span>{' '}
           </li>
         </ul>
       </div>
