@@ -2,11 +2,11 @@ FROM node:20-alpine
 
 WORKDIR /app
 
-COPY package.json .
+COPY package.json ./
+COPY package-lock.json ./
 
-RUN npm install
-
-RUN npm i -g serve
+RUN npm ci
+RUN npm install -g server
 
 COPY . .
 
@@ -14,4 +14,4 @@ RUN npm run build
 
 EXPOSE 3000
 
-CMD [ "serve", "-s", "dist" ]
+CMD ["serve", "-s", "dist", "-l", "tcp://0.0.0.0:3000"]
