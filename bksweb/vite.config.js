@@ -3,23 +3,16 @@ import react from '@vitejs/plugin-react'
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: '/',
   plugins: [react()],
-  server: {
-    // Pre dev server
-    host: '0.0.0.0', // Odporúčané pre konzistentnosť
-    port: 5173, // Defaultný dev port
-  },
   preview: {
-    // Pre produkčný preview server
-    host: '0.0.0.0', // Dôležité: počúvaj na všetkých rozhraniach v kontajneri
-    port: 4173, // Štandardný port pre vite preview
-    strictPort: true, // Zabezpečí, že sa použije tento port
-    allowedHosts: [
-      'lo0o80s84480scos0k400484.tz-server.online',
-      '.tz-server.online', // Povolí všetky subdomény pod tz-server.online
-      // Toto je dobrá záchranná sieť, ak sa prefix mení.
-      'localhost', // Pre lokálne testovanie preview
-      '127.0.0.1', // Pre lokálne testovanie preview
-    ],
+    port: 8080,
+    strictPort: true,
+  },
+  server: {
+    port: 8080,
+    strictPort: true,
+    host: true,
+    origin: 'http://0.0.0.0:8080',
   },
 })
